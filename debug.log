@@ -1,0 +1,2960 @@
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2651
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2702
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2651
+Not Found: /
+"GET / HTTP/1.1" 404 2651
+Not Found: /
+"GET / HTTP/1.1" 404 2651
+Not Found: /
+"GET / HTTP/1.1" 404 2651
+Not Found: /
+"GET / HTTP/1.1" 404 2651
+C:\Users\Parth\OneDrive\Desktop\careersai\careersai\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\careersai\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 29416
+"GET /auth/ HTTP/1.1" 200 21047
+"GET /auth/ HTTP/1.1" 200 21047
+C:\Users\Parth\OneDrive\Desktop\careersai\core\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /auth/ HTTP/1.1" 200 21047
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 29416
+"GET /auth/ HTTP/1.1" 200 21047
+"GET / HTTP/1.1" 200 29416
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+"GET /static/admin/css/login.css HTTP/1.1" 200 951
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 12179
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /admin/core/psychometrictest/ HTTP/1.1" 200 16631
+"GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+"GET /static/admin/img/search.svg HTTP/1.1" 304 0
+"GET /static/admin/js/filters.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+"GET /admin/core/question/ HTTP/1.1" 200 21159
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/core/userprofile/ HTTP/1.1" 200 13101
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/core/usertestattempt/ HTTP/1.1" 200 14189
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/core/useranswer/ HTTP/1.1" 200 13892
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/core/careerrecommendation/ HTTP/1.1" 200 14403
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/core/answeroption/ HTTP/1.1" 200 29390
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+Bad Request: /api/core/auth/register/
+"POST /api/core/auth/register/ HTTP/1.1" 400 100
+Bad Request: /api/core/auth/register/
+"POST /api/core/auth/register/ HTTP/1.1" 400 100
+Bad Request: /api/core/auth/login/
+"POST /api/core/auth/login/ HTTP/1.1" 400 42
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /auth/ HTTP/1.1" 200 21733
+Bad Request: /api/core/auth/register/
+"POST /api/core/auth/register/ HTTP/1.1" 400 40
+Bad Request: /api/core/auth/register/
+"POST /api/core/auth/register/ HTTP/1.1" 400 40
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 29475
+"GET /logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 29416
+"GET /auth/ HTTP/1.1" 200 21733
+Bad Request: /api/core/auth/register/
+"POST /api/core/auth/register/ HTTP/1.1" 400 40
+C:\Users\Parth\OneDrive\Desktop\careersai\careersai\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 29416
+"GET /auth/ HTTP/1.1" 200 21733
+Bad Request: /api/core/auth/register/
+"POST /api/core/auth/register/ HTTP/1.1" 400 40
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 6961
+"GET /auth/ HTTP/1.1" 200 21768
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 6961
+Bad Request: /api/core/auth/register/
+"POST /api/core/auth/register/ HTTP/1.1" 400 58
+Watching for file changes with StatReloader
+Bad Request: /api/core/auth/register/
+"POST /api/core/auth/register/ HTTP/1.1" 400 58
+"GET /auth/ HTTP/1.1" 200 22026
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 6961
+Bad Request: /api/core/auth/register/
+"POST /api/core/auth/register/ HTTP/1.1" 400 58
+C:\Users\Parth\OneDrive\Desktop\careersai\core\serializers.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /auth/ HTTP/1.1" 200 22139
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 6961
+Internal Server Error: /api/core/auth/register/
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: UNIQUE constraint failed: core_user.username
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python312\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Python312\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py", line 64, in post
+    user = serializer.save()
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\rest_framework\serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Parth\OneDrive\Desktop\careersai\core\serializers.py", line 35, in create
+    user = User.objects.create_user(**validated_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\contrib\auth\models.py", line 175, in create_user
+    return self._create_user(username, email, password, **extra_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\contrib\auth\models.py", line 163, in _create_user
+    user.save(using=self._db)
+  File "C:\Python312\Lib\site-packages\django\contrib\auth\base_user.py", line 65, in save
+    super().save(*args, **kwargs)
+  File "C:\Python312\Lib\site-packages\django\db\models\base.py", line 902, in save
+    self.save_base(
+  File "C:\Python312\Lib\site-packages\django\db\models\base.py", line 1008, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\db\models\base.py", line 1169, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\db\models\base.py", line 1210, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\db\models\query.py", line 1854, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\db\models\sql\compiler.py", line 1881, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Python312\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Python312\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Python312\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: UNIQUE constraint failed: core_user.username
+"POST /api/core/auth/register/ HTTP/1.1" 500 210580
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 29416
+"GET /auth/ HTTP/1.1" 200 22139
+Internal Server Error: /api/core/auth/register/
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: UNIQUE constraint failed: core_user.username
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python312\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Python312\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py", line 64, in post
+    user = serializer.save()
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\rest_framework\serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Parth\OneDrive\Desktop\careersai\core\serializers.py", line 35, in create
+    user = User.objects.create_user(**validated_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\contrib\auth\models.py", line 175, in create_user
+    return self._create_user(username, email, password, **extra_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\contrib\auth\models.py", line 163, in _create_user
+    user.save(using=self._db)
+  File "C:\Python312\Lib\site-packages\django\contrib\auth\base_user.py", line 65, in save
+    super().save(*args, **kwargs)
+  File "C:\Python312\Lib\site-packages\django\db\models\base.py", line 902, in save
+    self.save_base(
+  File "C:\Python312\Lib\site-packages\django\db\models\base.py", line 1008, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\db\models\base.py", line 1169, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\db\models\base.py", line 1210, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\db\models\query.py", line 1854, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\db\models\sql\compiler.py", line 1881, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Python312\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Python312\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Python312\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: UNIQUE constraint failed: core_user.username
+"POST /api/core/auth/register/ HTTP/1.1" 500 210580
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 6961
+Watching for file changes with StatReloader
+"POST /api/core/auth/register/ HTTP/1.1" 201 677
+"GET / HTTP/1.1" 200 29416
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 6961
+"GET /auth/ HTTP/1.1" 200 22139
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 6961
+"GET /admin/core/answeroption/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/core/answeroption/ HTTP/1.1" 200 4217
+"POST /admin/login/?next=/admin/core/answeroption/ HTTP/1.1" 302 0
+"GET /admin/core/answeroption/ HTTP/1.1" 200 29390
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/core/answeroption/ HTTP/1.1" 200 29390
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/core/answeroption/ HTTP/1.1" 200 29390
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/core/answeroption HTTP/1.1" 301 0
+"GET /admin/core/answeroption/ HTTP/1.1" 200 29390
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+C:\Users\Parth\OneDrive\Desktop\careersai\core\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/ HTTP/1.1" 200 12179
+"GET /admin/core/user/ HTTP/1.1" 200 17166
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+C:\Users\Parth\OneDrive\Desktop\careersai\core\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /admin/core/user/ HTTP/1.1" 200 12070
+"GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+"POST /admin/core/user/ HTTP/1.1" 302 0
+"GET /admin/core/user/ HTTP/1.1" 200 16732
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/core/userprofile/ HTTP/1.1" 200 13101
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /auth/ HTTP/1.1" 200 29518
+"GET /auth/ HTTP/1.1" 200 29518
+"GET / HTTP/1.1" 200 29475
+"GET / HTTP/1.1" 200 29475
+"GET / HTTP/1.1" 200 29475
+"GET / HTTP/1.1" 200 29475
+"GET / HTTP/1.1" 200 29475
+"GET /logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 29416
+"GET /auth/ HTTP/1.1" 200 29518
+"POST /api/core/auth/check-email/ HTTP/1.1" 200 16
+"POST /api/core/auth/send-otp/ HTTP/1.1" 200 71
+"POST /api/core/auth/verify-otp/ HTTP/1.1" 200 54
+C:\Users\Parth\OneDrive\Desktop\careersai\careersai\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 29416
+"GET / HTTP/1.1" 200 29416
+"GET / HTTP/1.1" 200 29416
+"GET / HTTP/1.1" 200 29416
+"GET / HTTP/1.1" 200 29416
+"GET / HTTP/1.1" 200 29416
+"GET / HTTP/1.1" 200 29416
+"GET / HTTP/1.1" 200 29416
+"GET / HTTP/1.1" 200 29416
+"GET / HTTP/1.1" 200 29416
+"GET /auth/ HTTP/1.1" 200 29089
+"POST /api/core/auth/check-email/ HTTP/1.1" 200 16
+"POST /api/core/auth/send-otp/ HTTP/1.1" 200 64
+"POST /api/core/auth/verify-otp/ HTTP/1.1" 200 54
+"POST /api/core/auth/register/ HTTP/1.1" 201 614
+"GET / HTTP/1.1" 200 29416
+"GET /auth/ HTTP/1.1" 200 29089
+"POST /api/core/auth/login/ HTTP/1.1" 200 606
+"GET / HTTP/1.1" 200 29483
+"GET /logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 29416
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /auth/ HTTP/1.1" 200 29089
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /auth/ HTTP/1.1" 200 36198
+"POST /api/core/auth/send-otp/ HTTP/1.1" 200 64
+"POST /api/core/auth/login-otp/ HTTP/1.1" 200 630
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Python312\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\loader_tags.py", line 299, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Python312\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Python312\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\defaulttags.py", line 962, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\base.py", line 489, in parse
+    raise self.error(token, e)
+  File "C:\Python312\Lib\site-packages\django\template\base.py", line 487, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\base.py", line 609, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\base.py", line 710, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '('@')[0]' from 'user.first_name|default:user.email.split('@')[0]'
+"GET / HTTP/1.1" 500 214842
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Python312\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\loader_tags.py", line 299, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Python312\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Python312\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\defaulttags.py", line 962, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Python312\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\defaulttags.py", line 976, in do_if
+    nodelist = parser.parse(("endif",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\base.py", line 489, in parse
+    raise self.error(token, e)
+  File "C:\Python312\Lib\site-packages\django\template\base.py", line 487, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\base.py", line 609, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\base.py", line 705, in __init__
+    filter_func = parser.find_filter(filter_name)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\base.py", line 615, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Invalid filter: 'split'
+"GET / HTTP/1.1" 500 236999
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Python312\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\loader_tags.py", line 299, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Python312\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Python312\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\defaulttags.py", line 962, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Python312\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\defaulttags.py", line 976, in do_if
+    nodelist = parser.parse(("endif",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\base.py", line 489, in parse
+    raise self.error(token, e)
+  File "C:\Python312\Lib\site-packages\django\template\base.py", line 487, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\base.py", line 609, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\base.py", line 705, in __init__
+    filter_func = parser.find_filter(filter_name)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\template\base.py", line 615, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Invalid filter: 'split'
+"GET / HTTP/1.1" 500 236999
+"GET / HTTP/1.1" 200 31314
+"GET /profile/ HTTP/1.1" 200 30185
+"GET /api/core/career/recommendations/ HTTP/1.1" 200 2
+"GET /api/core/tests/history/ HTTP/1.1" 200 2
+"GET / HTTP/1.1" 200 31314
+"GET /test/?category=graduation HTTP/1.1" 200 30110
+"POST /api/core/tests/start/ HTTP/1.1" 201 1788
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/complete/ HTTP/1.1" 200 301
+"GET /results/?attempt_id=1 HTTP/1.1" 200 29141
+"GET /api/core/tests/history/ HTTP/1.1" 200 1250
+"GET / HTTP/1.1" 200 31314
+"GET /profile/ HTTP/1.1" 200 30185
+"GET /api/core/career/recommendations/ HTTP/1.1" 200 252
+"GET /api/core/tests/history/ HTTP/1.1" 200 1250
+C:\Users\Parth\OneDrive\Desktop\careersai\core\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 31314
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8223
+"GET / HTTP/1.1" 200 31314
+"GET /admin/core/userprofile/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/core/userprofile/ HTTP/1.1" 200 3747
+"POST /admin/login/?next=/admin/core/userprofile/ HTTP/1.1" 302 0
+"GET /admin/core/userprofile/ HTTP/1.1" 200 13101
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/core/question/ HTTP/1.1" 200 21159
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/core/psychometrictest/ HTTP/1.1" 200 16631
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/core/psychometrictest/3/change/ HTTP/1.1" 200 14531
+"GET /static/admin/css/forms.css HTTP/1.1" 304 0
+"GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+"GET /admin/core/psychometrictest/ HTTP/1.1" 200 16631
+"GET /test/?category=graduation HTTP/1.1" 200 30151
+"POST /api/core/tests/start/ HTTP/1.1" 201 1808
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/complete/ HTTP/1.1" 200 850
+"GET /results/?attempt_id=2 HTTP/1.1" 200 31487
+"GET /api/core/tests/history/ HTTP/1.1" 200 2494
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 31307
+"GET /profile/ HTTP/1.1" 200 30155
+"GET /api/core/career/recommendations/ HTTP/1.1" 200 461
+"GET /api/core/tests/history/ HTTP/1.1" 200 2
+"GET / HTTP/1.1" 200 31307
+"GET / HTTP/1.1" 200 31307
+"GET /test/?category=graduation HTTP/1.1" 200 30151
+Not Found: /api/core/tests/start/
+"POST /api/core/tests/start/ HTTP/1.1" 404 26
+"GET /test/?category=graduation HTTP/1.1" 200 30151
+Not Found: /api/core/tests/start/
+"POST /api/core/tests/start/ HTTP/1.1" 404 26
+"GET /test/?category=graduation HTTP/1.1" 200 30151
+Not Found: /api/core/tests/start/
+"POST /api/core/tests/start/ HTTP/1.1" 404 26
+"GET /profile/ HTTP/1.1" 200 30155
+"GET /api/core/tests/history/ HTTP/1.1" 200 2
+"GET /api/core/career/recommendations/ HTTP/1.1" 200 461
+- Broken pipe from ('127.0.0.1', 52613)
+"GET / HTTP/1.1" 200 31104
+- Broken pipe from ('127.0.0.1', 53326)
+"GET /auth/ HTTP/1.1" 200 37026
+"POST /api/core/auth/send-otp/ HTTP/1.1" 200 64
+"POST /api/core/auth/login-otp/ HTTP/1.1" 200 630
+"GET / HTTP/1.1" 200 31314
+"GET /test/?category=graduation HTTP/1.1" 200 30132
+"POST /api/core/tests/start/ HTTP/1.1" 201 6898
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/complete/ HTTP/1.1" 200 852
+"GET /results/?attempt_id=3 HTTP/1.1" 200 35968
+"GET /api/core/tests/history/ HTTP/1.1" 200 3085
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 31314
+"GET /profile/ HTTP/1.1" 200 30185
+"GET /api/core/career/recommendations/ HTTP/1.1" 200 670
+"GET /api/core/tests/history/ HTTP/1.1" 200 3085
+"GET /profile/ HTTP/1.1" 200 29385
+"GET /api/core/career/recommendations/ HTTP/1.1" 200 670
+"GET /api/core/tests/history/ HTTP/1.1" 200 3085
+"GET / HTTP/1.1" 200 31314
+"GET /test/?category=post_graduation HTTP/1.1" 200 30137
+"POST /api/core/tests/start/ HTTP/1.1" 201 6964
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/complete/ HTTP/1.1" 200 770
+"GET /results/?attempt_id=4 HTTP/1.1" 200 46641
+"GET /api/core/tests/history/ HTTP/1.1" 200 6176
+"GET / HTTP/1.1" 200 31350
+"GET /test/?category=graduation HTTP/1.1" 200 30132
+Unauthorized: /api/core/tests/start/
+"POST /api/core/tests/start/ HTTP/1.1" 401 172
+"GET / HTTP/1.1" 200 31350
+"GET / HTTP/1.1" 200 31350
+"GET / HTTP/1.1" 200 31350
+"GET /admin/core/psychometrictest/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/core/psychometrictest/ HTTP/1.1" 200 3757
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 31350
+"GET /test/?category=graduation HTTP/1.1" 200 30132
+Unauthorized: /api/core/tests/start/
+"POST /api/core/tests/start/ HTTP/1.1" 401 172
+"GET /test/?category=graduation HTTP/1.1" 200 30132
+Unauthorized: /api/core/tests/start/
+"POST /api/core/tests/start/ HTTP/1.1" 401 172
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /test/?category=graduation HTTP/1.1" 200 30152
+Unauthorized: /api/core/tests/start/
+"POST /api/core/tests/start/ HTTP/1.1" 401 172
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 3713
+"GET / HTTP/1.1" 200 31350
+"GET /test/?category=graduation HTTP/1.1" 200 30152
+Unauthorized: /api/core/tests/start/
+"POST /api/core/tests/start/ HTTP/1.1" 401 172
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 31350
+"GET / HTTP/1.1" 200 31350
+"GET / HTTP/1.1" 200 31350
+"GET / HTTP/1.1" 200 31350
+"GET / HTTP/1.1" 200 31350
+"GET / HTTP/1.1" 200 31350
+"GET /test/?category=graduation HTTP/1.1" 200 30307
+Unauthorized: /api/core/tests/start/
+"POST /api/core/tests/start/ HTTP/1.1" 401 172
+"GET / HTTP/1.1" 200 31350
+"GET /test/?category=graduation HTTP/1.1" 200 30307
+Unauthorized: /api/core/tests/start/
+"POST /api/core/tests/start/ HTTP/1.1" 401 172
+"GET /test/?category=graduation HTTP/1.1" 200 30307
+Unauthorized: /api/core/tests/start/
+"POST /api/core/tests/start/ HTTP/1.1" 401 172
+"GET /test/?category=graduation HTTP/1.1" 200 30307
+Unauthorized: /api/core/tests/start/
+"POST /api/core/tests/start/ HTTP/1.1" 401 172
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 31350
+"GET /test/?category=graduation HTTP/1.1" 200 30307
+Unauthorized: /api/core/tests/start/
+"POST /api/core/tests/start/ HTTP/1.1" 401 172
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 31350
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 31350
+"GET /test/?category=graduation HTTP/1.1" 200 30307
+Unauthorized: /api/core/tests/start/
+"POST /api/core/tests/start/ HTTP/1.1" 401 172
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+Method Not Allowed: /api/core/tests/start/
+"GET /api/core/tests/start/ HTTP/1.1" 405 10503
+"GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+"GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+"GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+"GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+"GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+"GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+"GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+"GET /test/?category=graduation HTTP/1.1" 200 30307
+Unauthorized: /api/core/tests/start/
+"POST /api/core/tests/start/ HTTP/1.1" 401 172
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET / HTTP/1.1" 200 31350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET / HTTP/1.1" 200 31350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET / HTTP/1.1" 200 31350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET / HTTP/1.1" 200 31350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET / HTTP/1.1" 200 31350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET / HTTP/1.1" 200 31350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET / HTTP/1.1" 200 31350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET / HTTP/1.1" 200 31350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8223
+"GET / HTTP/1.1" 200 31350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8223
+"GET / HTTP/1.1" 200 31350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8223
+"GET /test/?category=graduation HTTP/1.1" 200 30545
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Unauthorized: /api/core/tests/start/
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"POST /api/core/tests/start/ HTTP/1.1" 401 172
+"GET /test/?category=graduation HTTP/1.1" 200 30548
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET /test/?category=graduation HTTP/1.1" 200 30548
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8223
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8223
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+Internal Server Error: /api/core/tests/start/
+"POST /api/core/tests/start/ HTTP/1.1" 500 135
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+- Broken pipe from ('127.0.0.1', 63346)
+"GET / HTTP/1.1" 200 31350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET /test/?category=graduation HTTP/1.1" 200 30548
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+Internal Server Error: /api/core/tests/start/
+"POST /api/core/tests/start/ HTTP/1.1" 500 135
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /test/?category=graduation HTTP/1.1" 200 30548
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8223
+Internal Server Error: /api/core/tests/start/
+"POST /api/core/tests/start/ HTTP/1.1" 500 135
+"GET /test/?category=graduation HTTP/1.1" 200 30548
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8223
+Internal Server Error: /api/core/tests/start/
+"POST /api/core/tests/start/ HTTP/1.1" 500 135
+"GET /test/?category=graduation HTTP/1.1" 200 30548
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8223
+Internal Server Error: /api/core/tests/start/
+"POST /api/core/tests/start/ HTTP/1.1" 500 135
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET / HTTP/1.1" 200 31350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET / HTTP/1.1" 200 31350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET / HTTP/1.1" 200 31350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET /test/?category=graduation HTTP/1.1" 200 30548
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+Internal Server Error: /api/core/tests/start/
+"POST /api/core/tests/start/ HTTP/1.1" 500 135
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /test/?category=graduation HTTP/1.1" 200 30548
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+Internal Server Error: /api/core/tests/start/
+"POST /api/core/tests/start/ HTTP/1.1" 500 135
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8223
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET / HTTP/1.1" 200 31350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET / HTTP/1.1" 200 31350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET / HTTP/1.1" 200 31350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET / HTTP/1.1" 200 31350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET / HTTP/1.1" 200 31350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET / HTTP/1.1" 200 31350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET / HTTP/1.1" 200 31350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET / HTTP/1.1" 200 31350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET /test/?category=graduation HTTP/1.1" 200 30548
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+Internal Server Error: /api/core/tests/start/
+"POST /api/core/tests/start/ HTTP/1.1" 500 135
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /test/?category=graduation HTTP/1.1" 200 30548
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Unauthorized: /api/core/tests/start/
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"POST /api/core/tests/start/ HTTP/1.1" 401 56
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8223
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET /logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 31140
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET / HTTP/1.1" 200 31140
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET / HTTP/1.1" 200 31140
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET /auth/ HTTP/1.1" 200 37026
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"POST /api/core/auth/send-otp/ HTTP/1.1" 200 64
+"POST /api/core/auth/login/ HTTP/1.1" 200 622
+"GET / HTTP/1.1" 200 31350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET /test/?category=graduation HTTP/1.1" 200 30548
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+Unauthorized: /api/core/tests/start/
+"POST /api/core/tests/start/ HTTP/1.1" 401 56
+"GET /test/?category=graduation HTTP/1.1" 200 30545
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8223
+"POST /api/core/tests/start/ HTTP/1.1" 201 7344
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/complete/ HTTP/1.1" 200 2088
+"GET /results/?attempt_id=5 HTTP/1.1" 200 46641
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+- Broken pipe from ('127.0.0.1', 60865)
+"GET /api/core/tests/history/ HTTP/1.1" 200 9295
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 31350
+"GET / HTTP/1.1" 200 31350
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8223
+"GET / HTTP/1.1" 200 31350
+"GET / HTTP/1.1" 200 31350
+"GET / HTTP/1.1" 200 31350
+"GET / HTTP/1.1" 200 31350
+"GET / HTTP/1.1" 200 31350
+"GET / HTTP/1.1" 200 31350
+"GET / HTTP/1.1" 200 31350
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8223
+"GET /test/?category=graduation HTTP/1.1" 200 30545
+"POST /api/core/tests/start/ HTTP/1.1" 201 6897
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/complete/ HTTP/1.1" 200 2405
+"GET /results/?attempt_id=6 HTTP/1.1" 200 43724
+"GET /api/core/tests/history/ HTTP/1.1" 200 12389
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 31350
+"GET /test/?category=graduation HTTP/1.1" 200 30545
+"POST /api/core/tests/start/ HTTP/1.1" 201 7231
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/complete/ HTTP/1.1" 200 2449
+"GET /results/?attempt_id=7 HTTP/1.1" 200 43830
+"GET /api/core/tests/history/ HTTP/1.1" 200 15603
+"GET /api/core/tests/history/ HTTP/1.1" 200 15603
+"GET /api/core/tests/history/ HTTP/1.1" 200 15603
+"GET /results/?attempt_id=7 HTTP/1.1" 200 46968
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8223
+"GET /api/core/tests/history/ HTTP/1.1" 200 15603
+"GET /api/core/tests/history/ HTTP/1.1" 200 15603
+"GET /api/core/tests/history/ HTTP/1.1" 200 15603
+Not Found: /api/core/tests/complete/
+"POST /api/core/tests/complete/ HTTP/1.1" 404 27
+"GET /api/core/tests/history/ HTTP/1.1" 200 15603
+"GET /results/?attempt_id=7 HTTP/1.1" 200 46968
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8223
+"GET /results/?attempt_id=7 HTTP/1.1" 200 46968
+- Broken pipe from ('127.0.0.1', 59202)
+- Broken pipe from ('127.0.0.1', 59578)
+- Broken pipe from ('127.0.0.1', 55660)
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8223
+- Broken pipe from ('127.0.0.1', 65458)
+"GET /api/core/tests/history/ HTTP/1.1" 200 15603
+"GET /api/core/tests/history/ HTTP/1.1" 200 15603
+"GET /api/core/tests/history/ HTTP/1.1" 200 15603
+Not Found: /api/core/tests/complete/
+"POST /api/core/tests/complete/ HTTP/1.1" 404 27
+"GET /api/core/tests/history/ HTTP/1.1" 200 15603
+"GET /results/?attempt_id=7 HTTP/1.1" 200 46968
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8223
+"GET /api/core/tests/history/ HTTP/1.1" 200 15603
+"GET /api/core/tests/history/ HTTP/1.1" 200 15603
+"GET /api/core/tests/history/ HTTP/1.1" 200 15603
+Not Found: /api/core/tests/complete/
+"POST /api/core/tests/complete/ HTTP/1.1" 404 27
+"GET /api/core/tests/history/ HTTP/1.1" 200 15603
+"GET / HTTP/1.1" 200 31350
+"GET /test/?category=graduation HTTP/1.1" 200 30545
+"POST /api/core/tests/start/ HTTP/1.1" 201 7188
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/complete/ HTTP/1.1" 200 2407
+"GET /results/?attempt_id=8 HTTP/1.1" 200 46968
+"GET /api/core/tests/history/ HTTP/1.1" 200 18619
+"GET /api/core/tests/history/ HTTP/1.1" 200 18619
+"GET /api/core/tests/history/ HTTP/1.1" 200 18619
+Not Found: /api/core/tests/complete/
+"POST /api/core/tests/complete/ HTTP/1.1" 404 27
+"GET /api/core/tests/history/ HTTP/1.1" 200 18619
+"GET / HTTP/1.1" 200 31350
+"GET /profile/ HTTP/1.1" 200 29385
+"GET /api/core/career/recommendations/ HTTP/1.1" 200 1765
+"GET /api/core/tests/history/ HTTP/1.1" 200 18619
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 31350
+"GET /test/?category=graduation HTTP/1.1" 200 30545
+"POST /api/core/tests/start/ HTTP/1.1" 201 7185
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/complete/ HTTP/1.1" 200 586
+"GET /results/?attempt_id=9 HTTP/1.1" 200 37972
+"GET /api/core/tests/history/ HTTP/1.1" 200 21651
+"GET /api/core/tests/history/ HTTP/1.1" 200 21651
+"GET /api/core/tests/history/ HTTP/1.1" 200 21651
+Not Found: /api/core/tests/complete/
+"POST /api/core/tests/complete/ HTTP/1.1" 404 27
+"GET /api/core/tests/history/ HTTP/1.1" 200 21651
+C:\Users\Parth\OneDrive\Desktop\careersai\core\models.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\models.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Unauthorized: /api/core/tests/complete/
+Unauthorized: /api/core/tests/history/
+"GET /api/core/tests/history/ HTTP/1.1" 401 172
+"POST /api/core/tests/complete/ HTTP/1.1" 401 172
+Unauthorized: /api/core/tests/start/
+"POST /api/core/tests/start/ HTTP/1.1" 401 172
+"GET / HTTP/1.1" 200 31350
+"GET / HTTP/1.1" 200 31350
+"GET /test/?category=graduation HTTP/1.1" 200 30505
+Unauthorized: /api/core/tests/start/
+"POST /api/core/tests/start/ HTTP/1.1" 401 172
+"GET /logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 31140
+"GET /auth/ HTTP/1.1" 200 37026
+"POST /api/core/auth/send-otp/ HTTP/1.1" 200 64
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 31140
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8223
+"GET /auth/ HTTP/1.1" 200 37026
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /auth/ HTTP/1.1" 200 37026
+"GET /auth/ HTTP/1.1" 200 37534
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8223
+"POST /api/core/auth/send-otp/ HTTP/1.1" 200 64
+"POST /api/core/auth/login-otp/ HTTP/1.1" 200 630
+"GET / HTTP/1.1" 200 31350
+"GET /test/?category=graduation HTTP/1.1" 200 30505
+"POST /api/core/tests/start/ HTTP/1.1" 201 7258
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 51
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+Internal Server Error: /api/core/tests/complete/
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python312\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Python312\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py", line 597, in post
+    result = self.generate_test_result(attempt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py", line 613, in generate_test_result
+    traits = self.calculate_traits(attempt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py", line 660, in calculate_traits
+    traits[trait] += value
+    ~~~~~~^^^^^^^
+KeyError: None
+"POST /api/core/tests/complete/ HTTP/1.1" 500 107191
+Not Found: /api/core/tests/complete/
+"POST /api/core/tests/complete/ HTTP/1.1" 404 27
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /api/core/tests/complete/
+"POST /api/core/tests/complete/ HTTP/1.1" 404 27
+Not Found: /api/core/tests/complete/
+"POST /api/core/tests/complete/ HTTP/1.1" 404 27
+C:\Users\Parth\OneDrive\Desktop\careersai\core\models.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\models.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\models.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\models.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 31350
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 3713
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 12531
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+Internal Server Error: /admin/core/question/
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: core_question.field
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\contrib\admin\options.py", line 719, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 246, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\contrib\admin\options.py", line 2163, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\db\models\query.py", line 366, in __len__
+    self._fetch_all()
+  File "C:\Python312\Lib\site-packages\django\db\models\query.py", line 1935, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\db\models\sql\compiler.py", line 1622, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Python312\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Python312\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Python312\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: core_question.field
+"GET /admin/core/question/ HTTP/1.1" 500 183051
+C:\Users\Parth\OneDrive\Desktop\careersai\core\models.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 31343
+"GET /admin/core/question/ HTTP/1.1" 200 66657
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /profile/ HTTP/1.1" 200 28684
+"GET /api/core/career/recommendations/ HTTP/1.1" 200 1522
+"GET /api/core/tests/history/ HTTP/1.1" 200 2641
+"GET /admin/core/userprofile/ HTTP/1.1" 200 13101
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/core/usertestattempt/ HTTP/1.1" 200 20449
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"POST /admin/core/usertestattempt/ HTTP/1.1" 200 14061
+"POST /admin/core/usertestattempt/ HTTP/1.1" 302 0
+"GET /admin/core/usertestattempt/ HTTP/1.1" 200 14174
+"GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET /admin/core/useranswer/ HTTP/1.1" 200 13985
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/core/testresult/ HTTP/1.1" 200 13359
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/core/psychometrictest/ HTTP/1.1" 200 15652
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/core/careerrecommendation/ HTTP/1.1" 200 20511
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"POST /admin/core/careerrecommendation/ HTTP/1.1" 200 13661
+"POST /admin/core/careerrecommendation/ HTTP/1.1" 302 0
+"GET /admin/core/careerrecommendation/ HTTP/1.1" 200 14555
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/core/answeroption/ HTTP/1.1" 200 61927
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /profile/ HTTP/1.1" 200 28684
+"GET /api/core/tests/history/ HTTP/1.1" 200 2
+"GET /api/core/career/recommendations/ HTTP/1.1" 200 2
+"GET / HTTP/1.1" 200 31343
+"GET /test/?category=graduation HTTP/1.1" 200 30505
+"POST /api/core/tests/start/ HTTP/1.1" 201 24598
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/complete/ HTTP/1.1" 200 753
+"GET /results/?attempt_id=11 HTTP/1.1" 200 35561
+"GET /api/core/tests/history/ HTTP/1.1" 200 13122
+"GET /api/core/tests/history/ HTTP/1.1" 200 13122
+"GET /api/core/tests/history/ HTTP/1.1" 200 13122
+Not Found: /api/core/tests/complete/
+"POST /api/core/tests/complete/ HTTP/1.1" 404 27
+"GET /api/core/tests/history/ HTTP/1.1" 200 13122
+"POST /api/core/tests/start/ HTTP/1.1" 201 24761
+"GET / HTTP/1.1" 200 31343
+"GET / HTTP/1.1" 200 31343
+"GET / HTTP/1.1" 200 31343
+"GET / HTTP/1.1" 200 31343
+"GET / HTTP/1.1" 200 31343
+"GET / HTTP/1.1" 200 31343
+"GET / HTTP/1.1" 200 31343
+"GET /profile/ HTTP/1.1" 200 28684
+"GET /api/core/career/recommendations/ HTTP/1.1" 200 183
+"GET /api/core/tests/history/ HTTP/1.1" 200 13474
+"GET / HTTP/1.1" 200 31343
+"GET /test/?category=graduation HTTP/1.1" 200 30505
+"POST /api/core/tests/start/ HTTP/1.1" 200 49141
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+Unauthorized: /api/core/tests/submit-answer/
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 401 172
+Unauthorized: /api/core/tests/submit-answer/
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 401 172
+Unauthorized: /api/core/tests/submit-answer/
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 401 172
+Unauthorized: /api/core/tests/submit-answer/
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 401 172
+Unauthorized: /api/core/tests/submit-answer/
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 401 172
+Unauthorized: /api/core/tests/submit-answer/
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 401 172
+Unauthorized: /api/core/tests/submit-answer/
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 401 172
+Unauthorized: /api/core/tests/submit-answer/
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 401 172
+Unauthorized: /api/core/tests/submit-answer/
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 401 172
+Unauthorized: /api/core/tests/submit-answer/
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 401 172
+Unauthorized: /api/core/tests/submit-answer/
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 401 172
+Unauthorized: /api/core/tests/submit-answer/
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 401 172
+Unauthorized: /api/core/tests/submit-answer/
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 401 172
+Unauthorized: /api/core/tests/submit-answer/
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 401 172
+Unauthorized: /api/core/tests/submit-answer/
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 401 172
+Unauthorized: /api/core/tests/submit-answer/
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 401 172
+Unauthorized: /api/core/tests/submit-answer/
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 401 172
+Unauthorized: /api/core/tests/submit-answer/
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 401 172
+Unauthorized: /api/core/tests/submit-answer/
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 401 172
+Unauthorized: /api/core/tests/submit-answer/
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 401 172
+Unauthorized: /api/core/tests/complete/
+"POST /api/core/tests/complete/ HTTP/1.1" 401 172
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+Unauthorized: /api/core/tests/complete/
+"POST /api/core/tests/complete/ HTTP/1.1" 401 172
+"GET /test/?category=graduation HTTP/1.1" 200 33541
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+Unauthorized: /api/core/tests/start/
+"POST /api/core/tests/start/ HTTP/1.1" 401 172
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET /logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 31140
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET /auth/ HTTP/1.1" 200 37534
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"POST /api/core/auth/send-otp/ HTTP/1.1" 200 64
+"POST /api/core/auth/login-otp/ HTTP/1.1" 200 630
+"GET / HTTP/1.1" 200 31350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET /test/?category=graduation HTTP/1.1" 200 33541
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"POST /api/core/tests/start/ HTTP/1.1" 200 7767
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/complete/ HTTP/1.1" 200 784
+"GET /results/?attempt_id=12 HTTP/1.1" 200 35691
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET /api/core/tests/history/ HTTP/1.1" 200 38985
+"GET /api/core/tests/history/ HTTP/1.1" 200 38985
+"GET /api/core/tests/history/ HTTP/1.1" 200 38985
+Not Found: /api/core/tests/complete/
+"POST /api/core/tests/complete/ HTTP/1.1" 404 27
+"GET /api/core/tests/history/ HTTP/1.1" 200 38985
+"GET / HTTP/1.1" 200 31350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET / HTTP/1.1" 200 31350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET / HTTP/1.1" 200 31350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET / HTTP/1.1" 200 31350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET / HTTP/1.1" 200 31350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET / HTTP/1.1" 200 31350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET / HTTP/1.1" 200 31350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET / HTTP/1.1" 200 31350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET / HTTP/1.1" 200 31350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET /profile/ HTTP/1.1" 200 28714
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET /api/core/career/recommendations/ HTTP/1.1" 200 367
+"GET /api/core/tests/history/ HTTP/1.1" 200 38985
+"GET / HTTP/1.1" 200 31350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\models.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\models.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 31350
+"GET /test/?category=graduation HTTP/1.1" 200 33541
+"POST /api/core/tests/start/ HTTP/1.1" 201 19888
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/complete/ HTTP/1.1" 200 776
+"GET /results/?attempt_id=13 HTTP/1.1" 200 39341
+C:\Users\Parth\OneDrive\Desktop\careersai\core\models.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 31350
+"GET /profile/ HTTP/1.1" 200 28714
+"GET /api/core/career/recommendations/ HTTP/1.1" 200 551
+"GET /api/core/tests/history/ HTTP/1.1" 200 12817
+"GET / HTTP/1.1" 200 31350
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 31350
+"GET /test/?category=graduation HTTP/1.1" 200 33541
+"POST /api/core/tests/start/ HTTP/1.1" 201 19863
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/complete/ HTTP/1.1" 200 776
+"GET /results/?attempt_id=14 HTTP/1.1" 200 36518
+"GET /api/core/tests/history/ HTTP/1.1" 200 25632
+"GET /api/core/tests/history/ HTTP/1.1" 200 25632
+Not Found: /api/core/tests/complete/
+"POST /api/core/tests/complete/ HTTP/1.1" 404 27
+"GET / HTTP/1.1" 200 31350
+"GET /profile/ HTTP/1.1" 200 28714
+"GET /api/core/career/recommendations/ HTTP/1.1" 200 735
+"GET /api/core/tests/history/ HTTP/1.1" 200 25632
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /profile/ HTTP/1.1" 200 28714
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8223
+"GET /api/core/career/recommendations/ HTTP/1.1" 200 735
+"GET /api/core/tests/history/ HTTP/1.1" 200 25632
+"GET /profile/ HTTP/1.1" 200 28714
+"GET /api/core/career/recommendations/ HTTP/1.1" 200 735
+"GET /profile/ HTTP/1.1" 200 28714
+"GET /profile/ HTTP/1.1" 200 28714
+- Broken pipe from ('127.0.0.1', 52318)
+"GET /api/core/career/recommendations/ HTTP/1.1" 200 735
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8223
+"GET /profile/ HTTP/1.1" 200 28714
+"GET /profile/ HTTP/1.1" 200 28714
+- Broken pipe from ('127.0.0.1', 64589)
+- Broken pipe from ('127.0.0.1', 60056)
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8223
+"GET /api/core/career/recommendations/ HTTP/1.1" 200 735
+- Broken pipe from ('127.0.0.1', 63793)
+"GET /api/core/tests/history/ HTTP/1.1" 200 25632
+"GET / HTTP/1.1" 200 31350
+"GET /test/?category=graduation HTTP/1.1" 200 33541
+"POST /api/core/tests/start/ HTTP/1.1" 201 19863
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/complete/ HTTP/1.1" 200 776
+"GET /results/?attempt_id=15 HTTP/1.1" 200 35691
+"GET /api/core/tests/history/ HTTP/1.1" 200 38446
+"GET /api/core/tests/history/ HTTP/1.1" 200 38446
+"GET /api/core/tests/history/ HTTP/1.1" 200 38446
+Not Found: /api/core/tests/complete/
+"POST /api/core/tests/complete/ HTTP/1.1" 404 27
+"GET /api/core/tests/history/ HTTP/1.1" 200 38446
+"GET / HTTP/1.1" 200 31350
+"GET /profile/ HTTP/1.1" 200 28714
+"GET /api/core/career/recommendations/ HTTP/1.1" 200 919
+"GET /api/core/tests/history/ HTTP/1.1" 200 38446
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /profile/ HTTP/1.1" 200 28714
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8223
+"GET /api/core/career/recommendations/ HTTP/1.1" 200 919
+"GET /api/core/tests/history/ HTTP/1.1" 200 38446
+"GET /profile/ HTTP/1.1" 200 28714
+Not Found: /favicon.ico
+"GET /api/core/career/recommendations/ HTTP/1.1" 200 919
+"GET /favicon.ico HTTP/1.1" 404 8223
+"GET /api/core/tests/history/ HTTP/1.1" 200 38446
+"GET / HTTP/1.1" 200 31350
+"GET /admin/core/answeroption/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/core/answeroption/ HTTP/1.1" 200 3749
+"POST /admin/login/?next=/admin/core/answeroption/ HTTP/1.1" 302 0
+"GET /admin/core/answeroption/ HTTP/1.1" 200 64017
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/core/testresult/ HTTP/1.1" 200 16036
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"POST /admin/core/testresult/ HTTP/1.1" 200 12198
+"POST /admin/core/testresult/ HTTP/1.1" 302 0
+"GET /admin/core/testresult/ HTTP/1.1" 200 15331
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/core/useranswer/ HTTP/1.1" 200 70142
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /profile/ HTTP/1.1" 200 28684
+"GET /api/core/career/recommendations/ HTTP/1.1" 200 919
+"GET /api/core/tests/history/ HTTP/1.1" 200 38446
+"GET /profile/ HTTP/1.1" 200 28684
+"GET /api/core/career/recommendations/ HTTP/1.1" 200 919
+"GET /api/core/tests/history/ HTTP/1.1" 200 38446
+"GET / HTTP/1.1" 200 31343
+"GET / HTTP/1.1" 200 31343
+"GET / HTTP/1.1" 200 31343
+"GET / HTTP/1.1" 200 31343
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8223
+"GET / HTTP/1.1" 200 31343
+"GET / HTTP/1.1" 200 31343
+"GET / HTTP/1.1" 200 31343
+"GET / HTTP/1.1" 200 31343
+"GET / HTTP/1.1" 200 31343
+"GET / HTTP/1.1" 200 31343
+"GET / HTTP/1.1" 200 31343
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8223
+"GET /test/?category=graduation HTTP/1.1" 200 30505
+"POST /api/core/tests/start/ HTTP/1.1" 201 19863
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/complete/ HTTP/1.1" 200 1666
+"GET /results/?attempt_id=16 HTTP/1.1" 200 35561
+"GET /api/core/tests/history/ HTTP/1.1" 200 51261
+"GET /api/core/tests/history/ HTTP/1.1" 200 51261
+"GET /api/core/tests/history/ HTTP/1.1" 200 51261
+Not Found: /api/core/tests/complete/
+"POST /api/core/tests/complete/ HTTP/1.1" 404 27
+"GET /api/core/tests/history/ HTTP/1.1" 200 51261
+"GET / HTTP/1.1" 200 31343
+"GET /profile/ HTTP/1.1" 200 28684
+"GET /api/core/career/recommendations/ HTTP/1.1" 200 1103
+"GET /api/core/tests/history/ HTTP/1.1" 200 51261
+"GET /admin/core/question/ HTTP/1.1" 200 69495
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\models.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\models.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\models.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"POST /admin/core/question/ HTTP/1.1" 200 125569
+"POST /admin/core/question/ HTTP/1.1" 302 0
+"GET /admin/core/question/ HTTP/1.1" 200 24743
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"POST /admin/core/question/ HTTP/1.1" 200 25037
+"POST /admin/core/question/ HTTP/1.1" 302 0
+"GET /admin/core/question/ HTTP/1.1" 200 13446
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 31343
+"GET /admin/core/userprofile/ HTTP/1.1" 200 13101
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/core/usertestattempt/ HTTP/1.1" 200 18548
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"POST /admin/core/usertestattempt/ HTTP/1.1" 200 12948
+"POST /admin/core/usertestattempt/ HTTP/1.1" 302 0
+"GET /admin/core/usertestattempt/ HTTP/1.1" 200 14174
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/core/careerrecommendation/ HTTP/1.1" 200 19042
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"POST /admin/core/careerrecommendation/ HTTP/1.1" 200 13089
+"POST /admin/core/careerrecommendation/ HTTP/1.1" 302 0
+"GET /admin/core/careerrecommendation/ HTTP/1.1" 200 14555
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET / HTTP/1.1" 200 31343
+"GET /test/?category=graduation HTTP/1.1" 200 30505
+"POST /api/core/tests/start/ HTTP/1.1" 201 22975
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/complete/ HTTP/1.1" 200 697
+"GET /results/?attempt_id=17 HTTP/1.1" 200 36039
+"GET /api/core/tests/history/ HTTP/1.1" 200 13308
+"GET /api/core/tests/history/ HTTP/1.1" 200 13308
+"GET /api/core/tests/history/ HTTP/1.1" 200 13308
+Not Found: /api/core/tests/complete/
+"POST /api/core/tests/complete/ HTTP/1.1" 404 27
+"GET /api/core/tests/history/ HTTP/1.1" 200 13308
+"GET / HTTP/1.1" 200 31343
+"GET /profile/ HTTP/1.1" 200 28684
+"GET /api/core/career/recommendations/ HTTP/1.1" 200 175
+"GET /api/core/tests/history/ HTTP/1.1" 200 13308
+"GET / HTTP/1.1" 200 31343
+"GET /admin/core/question/ HTTP/1.1" 200 66358
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /profile/ HTTP/1.1" 200 28684
+"GET /api/core/career/recommendations/ HTTP/1.1" 200 175
+"GET /api/core/tests/history/ HTTP/1.1" 200 435
+"GET / HTTP/1.1" 200 31343
+"GET /test/?category=graduation HTTP/1.1" 200 30505
+"POST /api/core/tests/start/ HTTP/1.1" 201 22637
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/complete/ HTTP/1.1" 200 750
+"GET /results/?attempt_id=18 HTTP/1.1" 200 36039
+"GET /api/core/tests/history/ HTTP/1.1" 200 13803
+"GET /api/core/tests/history/ HTTP/1.1" 200 13803
+"GET /api/core/tests/history/ HTTP/1.1" 200 13803
+Not Found: /api/core/tests/complete/
+"POST /api/core/tests/complete/ HTTP/1.1" 404 27
+"GET /api/core/tests/history/ HTTP/1.1" 200 13803
+"GET / HTTP/1.1" 200 31343
+"GET /profile/ HTTP/1.1" 200 28684
+"GET /api/core/career/recommendations/ HTTP/1.1" 200 359
+"GET /api/core/tests/history/ HTTP/1.1" 200 13803
+"GET / HTTP/1.1" 200 31343
+"GET /test/?category=graduation HTTP/1.1" 200 30505
+Unauthorized: /api/core/tests/start/
+"POST /api/core/tests/start/ HTTP/1.1" 401 172
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 31343
+"GET /test/?category=graduation HTTP/1.1" 200 30505
+Unauthorized: /api/core/tests/start/
+"POST /api/core/tests/start/ HTTP/1.1" 401 172
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 31343
+"GET /test/?category=graduation HTTP/1.1" 200 30505
+Unauthorized: /api/core/tests/start/
+"POST /api/core/tests/start/ HTTP/1.1" 401 172
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET / HTTP/1.1" 200 31343
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET / HTTP/1.1" 200 31343
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET / HTTP/1.1" 200 31343
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET /test/?category=graduation HTTP/1.1" 200 30505
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Unauthorized: /api/core/tests/start/
+"POST /api/core/tests/start/ HTTP/1.1" 401 172
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+C:\Users\Parth\OneDrive\Desktop\careersai\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET /logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 31140
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET /auth/ HTTP/1.1" 200 37534
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"POST /api/core/auth/send-otp/ HTTP/1.1" 200 64
+"POST /api/core/auth/login/ HTTP/1.1" 200 622
+"GET / HTTP/1.1" 200 31350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET /profile/ HTTP/1.1" 200 28714
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET /api/core/career/recommendations/ HTTP/1.1" 200 359
+"GET /api/core/tests/history/ HTTP/1.1" 200 13803
+"GET / HTTP/1.1" 200 31350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET /test/?category=graduation HTTP/1.1" 200 30505
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"POST /api/core/tests/start/ HTTP/1.1" 201 22844
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/complete/ HTTP/1.1" 200 777
+"GET /results/?attempt_id=19 HTTP/1.1" 200 38676
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET /api/core/career/recommendations/ HTTP/1.1" 200 538
+"GET /api/core/tests/history/ HTTP/1.1" 200 27106
+"GET /api/core/tests/history/ HTTP/1.1" 200 27106
+Not Found: /api/core/tests/complete/
+"POST /api/core/tests/complete/ HTTP/1.1" 404 27
+"GET / HTTP/1.1" 200 31350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET /profile/ HTTP/1.1" 200 28714
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+- Broken pipe from ('127.0.0.1', 64816)
+"GET /api/core/career/recommendations/ HTTP/1.1" 200 538
+"GET /api/core/tests/history/ HTTP/1.1" 200 27106
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 31350
+"GET /profile/ HTTP/1.1" 200 28714
+"GET /api/core/career/recommendations/ HTTP/1.1" 200 538
+"GET /api/core/tests/history/ HTTP/1.1" 200 27106
+"GET / HTTP/1.1" 200 31350
+"GET /test/?category=graduation HTTP/1.1" 200 30505
+"POST /api/core/tests/start/ HTTP/1.1" 201 22504
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/complete/ HTTP/1.1" 200 775
+"GET /results/?attempt_id=20 HTTP/1.1" 200 29361
+"GET /api/core/tests/history/ HTTP/1.1" 200 40356
+"GET / HTTP/1.1" 200 31350
+"GET /profile/ HTTP/1.1" 200 28714
+"GET /api/core/career/recommendations/ HTTP/1.1" 200 717
+"GET /api/core/tests/history/ HTTP/1.1" 200 40356
+"GET / HTTP/1.1" 200 31350
+"GET / HTTP/1.1" 200 31350
+"GET / HTTP/1.1" 200 31350
+"GET / HTTP/1.1" 200 31350
+"GET / HTTP/1.1" 200 31350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET /profile/ HTTP/1.1" 200 28714
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET /api/core/career/recommendations/ HTTP/1.1" 200 717
+"GET /api/core/tests/history/ HTTP/1.1" 200 40356
+"GET / HTTP/1.1" 200 31350
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"GET /test/?category=graduation HTTP/1.1" 200 30505
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8334
+"POST /api/core/tests/start/ HTTP/1.1" 201 22212
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 50
+"POST /api/core/tests/submit-answer/ HTTP/1.1" 200 49
+"POST /api/core/tests/complete/ HTTP/1.1" 200 695
+"GET /results/?attempt_id=21 HTTP/1.1" 200 30307
+"GET /api/core/tests/history/ HTTP/1.1" 200 53616
+"GET / HTTP/1.1" 200 31350
+"GET /profile/ HTTP/1.1" 200 28714
+"GET /api/core/career/recommendations/ HTTP/1.1" 200 891
+"GET /api/core/tests/history/ HTTP/1.1" 200 53616
+"GET /profile/ HTTP/1.1" 200 29058
+"GET /api/core/career/recommendations/ HTTP/1.1" 200 891
+"GET /api/core/tests/history/ HTTP/1.1" 200 53616

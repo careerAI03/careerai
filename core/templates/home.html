@@ -1,0 +1,296 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<!-- ═══════════════ HOME PAGE ═══════════════ -->
+<div id="page-home" class="page active" data-user-authenticated="{{ user.is_authenticated|yesno:'true,false' }}">
+  <div style="min-height:100vh; background:var(--white);">
+
+    <!-- Navbar -->
+    <div class="navbar-wrap">
+      <nav class="navbar">
+        <div class="navbar-logo" onclick="showPage('home')">CareerAI</div>
+        <div class="navbar-links">
+          <span class="nav-link" onclick="document.querySelector('.section-cards').scrollIntoView({behavior:'smooth'})">Start Test</span>
+          <span class="nav-link" onclick="toggleAbout()">About</span>
+        </div>
+        <div class="navbar-actions" id="nav-actions">
+          {% if user.is_authenticated %}
+            <button class="user-profile-btn" onclick="window.location.href='/profile/'">
+              <span class="user-avatar">{{ user.first_name|default:user.username|slice:":1"|upper }}</span>
+              <span class="user-name">{% if user.first_name %}{{ user.first_name }}{% else %}{{ user.username }}{% endif %}</span>
+            </button>
+            <button class="btn-ghost-sm" onclick="handleSignOut()">Sign Out</button>
+          {% else %}
+            <button class="btn-solid-sm" onclick="showPage('auth')">Sign In</button>
+          {% endif %}
+        </div>
+      </nav>
+    </div>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-glow"></div>
+      <div class="about-boxes" id="about-boxes">
+        <div class="about-boxes-left">
+          <div class="about-box"><div class="about-box-title" id="ab-title-0"></div><p class="about-box-desc" id="ab-desc-0"></p></div>
+          <div class="about-box"><div class="about-box-title" id="ab-title-1"></div><p class="about-box-desc" id="ab-desc-1"></p></div>
+          <div class="about-box"><div class="about-box-title" id="ab-title-2"></div><p class="about-box-desc" id="ab-desc-2"></p></div>
+        </div>
+        <div class="about-boxes-right">
+          <div class="about-box"><div class="about-box-title" id="ab-title-3"></div><p class="about-box-desc" id="ab-desc-3"></p></div>
+          <div class="about-box"><div class="about-box-title" id="ab-title-4"></div><p class="about-box-desc" id="ab-desc-4"></p></div>
+        </div>
+      </div>
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="hero-badge-dot"></span>
+          Psychometric · AI-Powered · Personalized
+        </div>
+        <h1 class="hero-heading">Find the Right<br>Career Path with AI</h1>
+        <p class="hero-sub">Psychometric analysis meets AI-powered guidance — discover a career that's uniquely built for you.</p>
+        <div class="hero-actions">
+          {% if user.is_authenticated %}
+            <button class="btn-primary" onclick="startTest()">Take Test <span>→</span></button>
+          {% else %}
+            <button class="btn-primary" onclick="showPage('auth')">Get Started <span>→</span></button>
+          {% endif %}
+          <button class="btn-secondary" onclick="showTestCategories()">Explore Tests</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Test Categories Modal -->
+    <div id="test-modal" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.5);z-index:1000;justify-content:center;align-items:center;">
+      <div style="background:white;border-radius:24px;padding:48px;max-width:600px;width:90%;max-height:80vh;overflow-y:auto;">
+        <h2 style="font-size:28px;font-weight:700;margin-bottom:24px;">Choose Your Test</h2>
+        <div style="display:flex;flex-direction:column;gap:16px;">
+          <div class="feature-card" onclick="selectTestCategory('graduation')">
+            <span class="card-icon">🎓</span>
+            <div class="card-title">Choose Undergraduate Stream</div>
+            <p class="card-desc">Find the perfect bachelor's degree based on your personality and interests.</p>
+          </div>
+          <!-- <div class="feature-card" onclick="selectTestCategory('post_graduation')">
+            <span class="card-icon">📚</span>
+            <div class="card-title">Choose Postgraduate Path</div>
+            <p class="card-desc">Discover advanced study options that align with your long-term career goals.</p>
+          </div> -->
+          <!-- <div class="feature-card" onclick="selectTestCategory('job')">
+            <span class="card-icon">💼</span>
+            <div class="card-title">Find the Best Job for You</div>
+            <p class="card-desc">Get matched with ideal job roles based on your psychometric profile.</p>
+          </div> -->
+        </div>
+        <button class="btn-secondary" onclick="closeTestModal()" style="margin-top:24px;width:100%;">Cancel</button>
+      </div>
+    </div>
+
+    <!-- Feature Cards -->
+    <section class="section-cards">
+      <div class="cards-inner">
+        <p class="section-label">What we help with</p>
+        <h2 class="section-heading">One platform, three pathways</h2>
+        <p class="section-sub">Whether you're just starting out or looking to advance, we'll help you find your fit.</p>
+        <div class="cards-grid">
+          <div class="feature-card">
+            <span class="card-icon">🎓</span>
+            <div class="card-title">Choose Undergraduate Stream</div>
+            <p class="card-desc">Find the perfect bachelor's degree based on your personality and interests.</p>
+            <button class="btn-card" onclick="selectTestCategory('graduation')">Get Started <span class="btn-card-arrow">→</span></button>
+          </div>
+          <!-- <div class="feature-card">
+            <span class="card-icon">📚</span>
+            <div class="card-title">Choose Postgraduate Path</div>
+            <p class="card-desc">Discover advanced study options that align with your long-term career goals.</p>
+            <button class="btn-card" onclick="selectTestCategory('post_graduation')">Get Started <span class="btn-card-arrow">→</span></button>
+          </div> -->
+          <!-- <div class="feature-card">
+            <span class="card-icon">💼</span>
+            <div class="card-title">Find the Best Job for You</div>
+            <p class="card-desc">Get matched with ideal job roles based on your psychometric profile.</p>
+            <button class="btn-card" onclick="selectTestCategory('job')">Get Started <span class="btn-card-arrow">→</span></button>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="section-hiw">
+      <div class="hiw-inner">
+        <p class="section-label">Process</p>
+        <h2 class="section-heading">How it works</h2>
+        <p class="section-sub">Three steps to a career that feels right — not just on paper.</p>
+        <div class="steps-list">
+          <div class="steps-line"></div>
+          <div class="step-item">
+            <div class="step-number-wrap"><div class="step-number">1</div></div>
+            <div class="step-body">
+              <div class="step-title">Take the Psychometric Test</div>
+              <p class="step-desc">Complete our comprehensive personality assessment to understand your core traits and tendencies.</p>
+            </div>
+          </div>
+          <div class="step-item">
+            <div class="step-number-wrap"><div class="step-number">2</div></div>
+            <div class="step-body">
+              <div class="step-title">Analyze Your Personality</div>
+              <p class="step-desc">Our system analyzes your responses across key personality dimensions to build your unique profile.</p>
+            </div>
+          </div>
+          <div class="step-item">
+            <div class="step-number-wrap"><div class="step-number">3</div></div>
+            <div class="step-body">
+              <div class="step-title">Get AI Recommendations</div>
+              <p class="step-desc">Receive deeply personalized career suggestions powered by advanced AI matched to your profile.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="section-features">
+      <div class="features-inner">
+        <p class="section-label">Features</p>
+        <h2 class="section-heading">Built for real decisions</h2>
+        <p class="section-sub">Every feature designed to give you clarity, not noise.</p>
+        <div class="features-grid">
+          <div class="feat-item"><span class="feat-icon">🤖</span><div class="feat-title">AI-powered analysis</div><p class="feat-desc">Advanced AI analyzes your responses for accurate, nuanced insights.</p></div>
+          <div class="feat-item"><span class="feat-icon">🧠</span><div class="feat-title">Psychometric testing</div><p class="feat-desc">Scientifically validated personality assessment methodology.</p></div>
+          <div class="feat-item"><span class="feat-icon">🎯</span><div class="feat-title">Personalized results</div><p class="feat-desc">Tailored recommendations based on your unique personality profile.</p></div>
+          <div class="feat-item"><span class="feat-icon">🗺️</span><div class="feat-title">Career roadmap</div><p class="feat-desc">Clear guidance on educational paths and professional directions.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-inner">
+        <div style="display:flex;align-items:center;gap:20px;">
+          <span class="footer-logo">CareerAI</span>
+          <span class="footer-copy">© 2024. All rights reserved.</span>
+        </div>
+        <div class="footer-links">
+          <span class="footer-link">About</span>
+          <span class="footer-link">Contact</span>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+/* ════════════════════════════════════════════
+   STATE
+════════════════════════════════════════════ */
+let currentPage = 'home'
+let currentUser = document.getElementById('page-home').dataset.userAuthenticated === 'true';
+
+/* ════════════════════════════════════════════
+   ABOUT TYPING ANIMATION
+════════════════════════════════════════════ */
+const aboutBoxes = [
+  { title: 'Our Mission', desc: 'Helping students find their perfect career path through AI-powered psychometric analysis.' },
+  { title: 'AI Technology', desc: 'Advanced machine learning algorithms analyze your personality traits for accurate matching.' },
+  { title: 'Scientific Approach', desc: 'Based on validated psychometric testing methods used by career counselors worldwide.' },
+  { title: 'Success Stories', desc: 'Thousands of students have discovered their ideal career paths through our platform.' },
+  { title: 'Expert Team', desc: 'Psychologists and career experts working together to build the best guidance system.' }
+]
+
+let aboutVisible = false
+let aboutTypingTimer = null
+
+function toggleAbout() {
+  aboutVisible = !aboutVisible
+  const boxes = document.getElementById('about-boxes')
+  if (aboutVisible) {
+    boxes.classList.add('show')
+    startTyping()
+  } else {
+    boxes.classList.remove('show')
+    clearTimeout(aboutTypingTimer)
+    aboutBoxes.forEach((_, i) => {
+      const t = document.getElementById('ab-title-' + i)
+      const d = document.getElementById('ab-desc-' + i)
+      if (t) t.innerHTML = ''
+      if (d) d.innerHTML = ''
+    })
+  }
+}
+
+function startTyping() {
+  let boxIdx = 0, charIdx = 0, typingTitle = true
+
+  function type() {
+    if (boxIdx >= aboutBoxes.length) return
+    const box = aboutBoxes[boxIdx]
+    const text = typingTitle ? box.title : box.desc
+    const el = document.getElementById(typingTitle ? 'ab-title-' + boxIdx : 'ab-desc-' + boxIdx)
+    if (!el) return
+
+    if (charIdx < text.length) {
+      el.innerHTML = text.slice(0, charIdx + 1) + '<span class="typing-cursor">|</span>'
+      charIdx++
+      aboutTypingTimer = setTimeout(type, 28)
+    } else {
+      el.innerHTML = text
+      if (typingTitle) {
+        typingTitle = false; charIdx = 0
+        aboutTypingTimer = setTimeout(type, 150)
+      } else {
+        boxIdx++; typingTitle = true; charIdx = 0
+        aboutTypingTimer = setTimeout(type, 200)
+      }
+    }
+  }
+  type()
+}
+
+/* ════════════════════════════════════════════
+   TEST SELECTION
+════════════════════════════════════════════ */
+function showTestCategories() {
+  document.getElementById('test-modal').style.display = 'flex'
+}
+
+function closeTestModal() {
+  document.getElementById('test-modal').style.display = 'none'
+}
+
+function selectTestCategory(category) {
+  closeTestModal()
+  if (!currentUser) {
+    showPage('auth')
+    return
+  }
+  // Redirect to test page with category
+  window.location.href = `/test/?category=${category}`
+}
+
+function startTest() {
+  if (!currentUser) {
+    showPage('auth')
+    return
+  }
+  showTestCategories()
+}
+
+function handleSignOut() {
+  window.location.href = '/logout/'
+}
+
+function showPage(page) {
+  if (page === 'auth') {
+    window.location.href = '/auth/'
+  }
+}
+
+/* ════════════════════════════════════════════
+   INIT
+════════════════════════════════════════════ */
+document.addEventListener('DOMContentLoaded', function() {
+  // Initialize page
+})
+</script>
+{% endblock %}

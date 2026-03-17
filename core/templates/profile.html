@@ -1,0 +1,479 @@
+{% extends 'base.html' %}
+
+{% block title %}Profile - CareerAI{% endblock %}
+
+{% block content %}
+<!-- ═══════════════ PROFILE PAGE ═══════════════ -->
+<div id="page-profile" class="page active">
+  <div style="min-height:100vh; background:var(--white);">
+
+    <!-- Navbar -->
+    <div class="navbar-wrap">
+      <nav class="navbar">
+        <div class="navbar-logo" onclick="window.location.href='/'">CareerAI</div>
+        <div class="navbar-links">
+          <span class="nav-link" onclick="document.querySelector('.section-cards').scrollIntoView({behavior:'smooth'})">Start Test</span>
+          <span class="nav-link" onclick="toggleAbout()">About</span>
+        </div>
+        <div class="navbar-actions" id="nav-actions">
+          {% if user.is_authenticated %}
+            <button class="btn-ghost-sm" onclick="window.location.href='/'">Back to Home</button>
+            <button class="btn-solid-sm" onclick="handleSignOut()">Sign Out</button>
+          {% else %}
+            <button class="btn-solid-sm" onclick="window.location.href='/auth/'">Sign In</button>
+          {% endif %}
+        </div>
+      </nav>
+    </div>
+
+    <!-- Profile Content -->
+    <div class="profile-container">
+      <div class="profile-header">
+        <div class="profile-avatar">
+          <div class="avatar-placeholder">
+            <span id="avatar-initial">{% if user.first_name %}{{ user.first_name|slice:":1"|upper }}{% else %}{{ user.username|slice:":1"|upper }}{% endif %}</span>
+          </div>
+        </div>
+        <div class="profile-info">
+          <h1 class="profile-name">{% if user.first_name %}{{ user.first_name }}{% else %}{{ user.username }}{% endif %}</h1>
+          <p class="profile-email">{{ user.email }}</p>
+          <p class="profile-member-since">Member since {{ user.date_joined|date:"F Y" }}</p>
+        </div>
+      </div>
+
+      <div class="profile-sections">
+        <!-- Personal Information Section -->
+        <div class="profile-section">
+          <h2 class="section-title">Personal Information</h2>
+          <div class="info-grid">
+            <div class="info-item">
+              <label class="info-label">Full Name</label>
+              <p class="info-value">{{ user.first_name|default:"Not set" }} {{ user.last_name|default:"" }}</p>
+            </div>
+            <div class="info-item">
+              <label class="info-label">Email</label>
+              <p class="info-value">{{ user.email }}</p>
+            </div>
+            <div class="info-item">
+              <label class="info-label">Username</label>
+              <p class="info-value">{{ user.username }}</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Test History Section -->
+        <div class="profile-section">
+          <h2 class="section-title">Test History</h2>
+          <div id="test-history" class="test-history-container">
+            <div class="loading-placeholder">Loading test history...</div>
+          </div>
+        </div>
+
+        <!-- Career Recommendations Section -->
+        <div class="profile-section">
+          <h2 class="section-title">Career Recommendations</h2>
+          <div id="career-recommendations" class="recommendations-container">
+            <div class="loading-placeholder">Loading career recommendations...</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+{% endblock %}
+
+{% block extra_css %}
+<style>
+.profile-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 24px;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 48px;
+  padding: 32px;
+  background: var(--gray-50);
+  border-radius: var(--radius-xl);
+  border: 1px solid var(--gray-200);
+}
+
+.profile-avatar {
+  flex-shrink: 0;
+}
+
+.avatar-placeholder {
+  width: 80px;
+  height: 80px;
+  background: var(--black);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.profile-info {
+  flex: 1;
+}
+
+.profile-name {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--black);
+  margin-bottom: 8px;
+  letter-spacing: -0.02em;
+}
+
+.profile-email {
+  font-size: 16px;
+  color: var(--gray-600);
+  margin-bottom: 4px;
+}
+
+.profile-member-since {
+  font-size: 14px;
+  color: var(--gray-400);
+}
+
+.profile-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.profile-section {
+  background: var(--white);
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-xl);
+  padding: 32px;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--black);
+  margin-bottom: 24px;
+  letter-spacing: -0.02em;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 24px;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.info-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--gray-500);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.info-value {
+  font-size: 15px;
+  color: var(--black);
+  font-weight: 500;
+}
+
+.test-history-container,
+.recommendations-container {
+  min-height: 120px;
+}
+
+.loading-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  color: var(--gray-400);
+  font-size: 14px;
+}
+
+.test-item {
+  padding: 16px;
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-md);
+  margin-bottom: 12px;
+  background: var(--gray-50);
+}
+
+.test-item:last-child {
+  margin-bottom: 0;
+}
+
+.test-category {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--black);
+  margin-bottom: 4px;
+}
+
+.test-date {
+  font-size: 12px;
+  color: var(--gray-500);
+  margin-bottom: 8px;
+}
+
+.test-score {
+  font-size: 13px;
+  color: var(--gray-600);
+}
+
+.settings-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.settings-btn {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-md);
+  background: var(--white);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: left;
+  width: 100%;
+}
+
+.settings-btn:hover {
+  border-color: var(--gray-300);
+  background: var(--gray-50);
+  transform: translateY(-1px);
+}
+
+.settings-icon {
+  font-size: 20px;
+  flex-shrink: 0;
+}
+
+.settings-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--black);
+  margin-bottom: 2px;
+}
+
+.settings-desc {
+  font-size: 12px;
+  color: var(--gray-500);
+}
+
+.recommendation-item {
+  padding: 20px;
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-md);
+  margin-bottom: 16px;
+  background: var(--gray-50);
+}
+
+.recommendation-field {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--black);
+  margin-bottom: 8px;
+}
+
+.recommendation-confidence {
+  font-size: 12px;
+  color: var(--gray-500);
+  margin-bottom: 8px;
+}
+
+.recommendation-date {
+  font-size: 11px;
+  color: var(--gray-400);
+  margin-bottom: 12px;
+}
+
+.recommendation-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.recommendation-list li {
+  font-size: 13px;
+  color: var(--gray-600);
+  padding: 4px 0;
+  padding-left: 16px;
+  position: relative;
+}
+
+.recommendation-item {
+  padding: 20px;
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-md);
+  margin-bottom: 16px;
+  background: var(--gray-50);
+}
+
+.recommendation-field {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--black);
+  margin-bottom: 8px;
+}
+
+.recommendation-confidence {
+  font-size: 12px;
+  color: var(--gray-500);
+  margin-bottom: 12px;
+}
+
+.recommendation-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.recommendation-list li {
+  font-size: 13px;
+  color: var(--gray-600);
+  padding: 4px 0;
+  padding-left: 16px;
+  position: relative;
+}
+
+.recommendation-list li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--gray-400);
+}
+
+@media (max-width: 640px) {
+  .profile-container {
+    padding: 24px 16px;
+  }
+  
+  .profile-header {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+  
+  .profile-section {
+    padding: 20px;
+  }
+  
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+// Load test history
+function loadTestHistory() {
+  const token = localStorage.getItem('access_token');
+  if (!token) return;
+
+  fetch('/api/core/tests/history/', {
+    headers: {
+      'Authorization': `Bearer ${token}`,
+      'Content-Type': 'application/json',
+    }
+  })
+  .then(response => response.json())
+  .then(data => {
+    const container = document.getElementById('test-history');
+    if (data.length === 0) {
+      container.innerHTML = '<div class="loading-placeholder">No tests taken yet</div>';
+      return;
+    }
+
+    container.innerHTML = data.map(attempt => `
+      <div class="test-item">
+        <div class="test-category">${attempt.test.category.replace('_', ' ').replace(/\b\w/g, l => l.toUpperCase())}</div>
+        <div class="test-date">Taken on ${new Date(attempt.started_at).toLocaleDateString()}</div>
+        <div class="test-score">Status: ${attempt.status.replace('_', ' ').replace(/\b\w/g, l => l.toUpperCase())}</div>
+        ${attempt.total_score ? `<div class="test-score">Score: ${attempt.total_score}</div>` : ''}
+      </div>
+    `).join('');
+  })
+  .catch(error => {
+    console.error('Error loading test history:', error);
+    document.getElementById('test-history').innerHTML = '<div class="loading-placeholder">Failed to load test history</div>';
+  });
+}
+
+// Load career recommendations
+function loadCareerRecommendations() {
+  const token = localStorage.getItem('access_token');
+  if (!token) return;
+
+  fetch('/api/core/career/recommendations/', {
+    headers: {
+      'Authorization': `Bearer ${token}`,
+      'Content-Type': 'application/json',
+    }
+  })
+  .then(response => response.json())
+  .then(data => {
+    const container = document.getElementById('career-recommendations');
+    if (data.length === 0) {
+      container.innerHTML = '<div class="loading-placeholder">No career recommendations available yet. Take a test to get personalized recommendations!</div>';
+      return;
+    }
+
+    // Sort by creation date (newest first)
+    const sortedData = data.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
+
+    container.innerHTML = sortedData.map(rec => `
+      <div class="recommendation-item">
+        <div class="recommendation-field">${rec.field.replace('_', ' ').replace(/\b\w/g, l => l.toUpperCase())}</div>
+        <div class="recommendation-confidence">Confidence: ${Math.round(rec.confidence_score * 100)}%</div>
+        <div class="recommendation-date">Generated: ${new Date(rec.created_at).toLocaleDateString()}</div>
+        ${rec.graduation_streams && rec.graduation_streams.length > 0 ? `
+          <div style="margin-bottom: 12px;">
+            <strong>Graduation Streams:</strong>
+            <ul class="recommendation-list">
+              ${rec.graduation_streams.map(stream => `<li>${stream}</li>`).join('')}
+            </ul>
+          </div>
+        ` : ''}
+      </div>
+    `).join('');
+  })
+  .catch(error => {
+    console.error('Error loading career recommendations:', error);
+    document.getElementById('career-recommendations').innerHTML = '<div class="loading-placeholder">Failed to load career recommendations</div>';
+  });
+}
+
+// Settings functions (removed - account settings section removed)
+
+function handleSignOut() {
+  localStorage.removeItem('access_token');
+  localStorage.removeItem('refresh_token');
+  localStorage.removeItem('user');
+  window.location.href = '/logout/';
+}
+
+// Initialize page
+document.addEventListener('DOMContentLoaded', function() {
+  loadTestHistory();
+  loadCareerRecommendations();
+});
+</script>
+{% endblock %}

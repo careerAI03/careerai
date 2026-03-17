@@ -1,0 +1,348 @@
+{% extends 'base.html' %}
+
+{% block extra_css %}
+<style>
+  /* ── TEST PAGE ── */
+  .test-wrap { min-height: 100vh; background: var(--white); padding: 48px 24px 80px; }
+  .test-inner { max-width: 680px; margin: 0 auto; }
+  .progress-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+  .progress-label { font-size: 13px; font-weight: 500; color: var(--gray-500); }
+  .progress-track { width: 100%; height: 3px; background: var(--gray-100); border-radius: var(--radius-full); margin-bottom: 48px; overflow: hidden; }
+  .progress-fill { height: 100%; background: var(--black); border-radius: var(--radius-full); transition: width 0.4s cubic-bezier(0.4,0,0.2,1); }
+  .question-card { background: var(--white); border: 1px solid var(--gray-200); border-radius: var(--radius-xl); padding: 48px 40px; }
+  .question-meta { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--gray-400); margin-bottom: 16px; }
+  .question-text { font-size: 20px; font-weight: 600; color: var(--black); letter-spacing: -0.02em; line-height: 1.4; margin-bottom: 36px; }
+  .options-list { display: flex; flex-direction: column; gap: 10px; }
+  .option-btn {
+    width: 100%; display: flex; align-items: center; justify-content: space-between;
+    padding: 14px 18px; background: var(--white); border: 1.5px solid var(--gray-200);
+    border-radius: var(--radius-md); cursor: pointer; text-align: left;
+    font-family: 'Geist', sans-serif; font-size: 14px; font-weight: 500;
+    color: var(--gray-700); transition: all 0.18s ease;
+  }
+  .option-btn:hover { border-color: var(--gray-400); color: var(--black); background: var(--gray-50); }
+  .option-btn.selected { border-color: var(--black); background: var(--black); color: var(--white); }
+  .option-radio {
+    width: 18px; height: 18px; border-radius: 50%; border: 2px solid currentColor;
+    flex-shrink: 0; display: flex; align-items: center; justify-content: center;
+    opacity: 0.5; transition: all 0.18s ease;
+  }
+  .option-btn.selected .option-radio { opacity: 1; background: var(--white); border-color: var(--white); }
+  .option-radio-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--black); display: none; }
+  .option-btn.selected .option-radio-dot { display: block; }
+  .question-nav { display: flex; justify-content: space-between; align-items: center; margin-top: 32px; }
+  .btn-nav {
+    display: inline-flex; align-items: center; gap: 7px;
+    font-family: 'Geist', sans-serif; font-size: 13.5px; font-weight: 500;
+    padding: 9px 22px; border-radius: var(--radius-full); cursor: pointer;
+    transition: all 0.2s ease; border: none;
+  }
+  .btn-nav-ghost { color: var(--gray-600); background: transparent; border: 1.5px solid var(--gray-200); }
+  .btn-nav-ghost:hover:not(:disabled) { color: var(--black); border-color: var(--gray-400); background: var(--gray-50); }
+  .btn-nav-ghost:disabled { opacity: 0.35; cursor: not-allowed; }
+  .btn-nav-primary { color: var(--white); background: var(--black); border: 1.5px solid var(--black); }
+  .btn-nav-primary:hover:not(:disabled) { background: var(--gray-800); transform: translateY(-1px); box-shadow: 0 4px 14px rgba(0,0,0,0.14); }
+  .btn-nav-primary:disabled { opacity: 0.4; cursor: not-allowed; }
+  
+  .loading-overlay {
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(255,255,255,0.9); display: flex; align-items: center; justify-content: center;
+    z-index: 9999;
+  }
+  .loading-spinner {
+    width: 40px; height: 40px; border: 3px solid var(--gray-200);
+    border-top-color: var(--black); border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+</style>
+{% endblock %}
+
+{% block content %}
+<!-- ═══════════════ TEST PAGE ═══════════════ -->
+<div id="page-test" class="page active">
+  <div class="test-wrap">
+    <div class="test-inner">
+      <div class="progress-row">
+        <span class="progress-label" id="q-counter">Loading...</span>
+        <span class="progress-label" id="q-pct">0% complete</span>
+      </div>
+      <div class="progress-track">
+        <div class="progress-fill" id="progress-fill" style="width:0%"></div>
+      </div>
+      
+      <div id="loading-question" class="question-card" style="text-align:center;">
+        <div class="loading-spinner" style="margin:0 auto 20px;"></div>
+        <p style="color:var(--gray-500);">Loading questions...</p>
+      </div>
+      
+      <div id="question-container" class="question-card" style="display:none;">
+        <div class="question-meta" id="q-meta">Question 1</div>
+        <h2 class="question-text" id="q-text"></h2>
+        <div class="options-list" id="options-list"></div>
+        <div class="question-nav">
+          <button class="btn-nav btn-nav-ghost" id="btn-prev" onclick="prevQuestion()">← Previous</button>
+          <button class="btn-nav btn-nav-primary" id="btn-next" onclick="nextQuestion()">Next →</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="loading-overlay" class="loading-overlay" style="display:none;">
+  <div style="text-align:center;">
+    <div class="loading-spinner"></div>
+    <p style="margin-top:16px;color:var(--gray-600);">Processing...</p>
+  </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+let testCategory = '{{ category|default:"graduation" }}';
+let attemptId = null;
+let questions = [];
+let currentQuestion = 0;
+let answers = {};
+
+// Initialize test
+document.addEventListener('DOMContentLoaded', function() {
+  startTest();
+});
+
+function startTest() {
+  showLoading(true);
+  
+  fetch('/api/core/tests/start/', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': 'Bearer ' + localStorage.getItem('access_token'),
+      'X-CSRFToken': window.CSRF_TOKEN,
+    },
+    body: JSON.stringify({
+      test_id: getTestIdByCategory(testCategory),
+      num_questions: 15  // Updated to 15 questions as requested
+    })
+  })
+  .then(response => {
+    console.log('Response status:', response.status);
+    return response.json();
+  })
+  .then(data => {
+    console.log('Response data:', data);
+    console.log('Response keys:', Object.keys(data));
+    console.log('Has attempt_id:', 'attempt_id' in data);
+    console.log('Has error:', 'error' in data);
+    showLoading(false);
+    if (data.attempt_id) {
+      attemptId = data.attempt_id;
+      questions = data.questions || [];
+      currentQuestion = 0;
+      answers = {};
+      renderQuestion();
+    } else {
+      const errorMsg = data.error || 'Unknown error';
+      console.log('Error message:', errorMsg);
+      alert('Failed to start test: ' + errorMsg);
+    }
+  })
+  .catch(error => {
+    console.error('Fetch error:', error);
+    showLoading(false);
+    alert('Network error. Please try again.');
+  });
+}
+
+function getTestIdByCategory(category) {
+  // Updated test IDs - these should match the database
+  const testIds = {
+    'graduation': 1
+  };
+  return testIds[category] || 1;
+}
+
+function renderQuestion() {
+  if (!questions.length || currentQuestion >= questions.length) {
+    return;
+  }
+  
+  const q = questions[currentQuestion];
+  const total = questions.length;
+  const progress = ((currentQuestion + 1) / total) * 100;
+
+  document.getElementById('q-counter').textContent = `Question ${currentQuestion + 1} of ${total}`; 
+  document.getElementById('q-pct').textContent = `${Math.round(progress)}% complete`; 
+  document.getElementById('progress-fill').style.width = progress + '%';
+  document.getElementById('q-meta').textContent = `Question ${currentQuestion + 1}`; 
+  document.getElementById('q-text').textContent = q.question_text;
+
+  const list = document.getElementById('options-list');
+  list.innerHTML = '';
+  
+  if (q.answer_options && q.answer_options.length > 0) {
+    // Multiple choice questions
+    q.answer_options.forEach((option, index) => {
+      const btn = document.createElement('button');
+      btn.className = 'option-btn' + (answers[currentQuestion] === option.id ? ' selected' : '');
+      btn.innerHTML = `
+        <span>${option.option_text}</span>
+        <span class="option-radio"><span class="option-radio-dot"></span></span>
+      `;
+      btn.onclick = () => selectAnswer(option.id);
+      list.appendChild(btn);
+    });
+  } else if (q.question_type === 'scale') {
+    // Scale questions (1-5)
+    const scaleOptions = [
+      { value: 1, text: 'Strongly Disagree' },
+      { value: 2, text: 'Disagree' },
+      { value: 3, text: 'Neutral' },
+      { value: 4, text: 'Agree' },
+      { value: 5, text: 'Strongly Agree' }
+    ];
+    
+    scaleOptions.forEach(option => {
+      const btn = document.createElement('button');
+      btn.className = 'option-btn' + (answers[currentQuestion] === option.value ? ' selected' : '');
+      btn.innerHTML = `
+        <span>${option.text}</span>
+        <span class="option-radio"><span class="option-radio-dot"></span></span>
+      `;
+      btn.onclick = () => selectAnswer(option.value);
+      list.appendChild(btn);
+    });
+  } else if (q.question_type === 'yes_no') {
+    // Yes/No questions
+    ['No', 'Yes'].forEach((text, index) => {
+      const value = index === 0 ? 0 : 1;
+      const btn = document.createElement('button');
+      btn.className = 'option-btn' + (answers[currentQuestion] === value ? ' selected' : '');
+      btn.innerHTML = `
+        <span>${text}</span>
+        <span class="option-radio"><span class="option-radio-dot"></span></span>
+      `;
+      btn.onclick = () => selectAnswer(value);
+      list.appendChild(btn);
+    });
+  }
+
+  document.getElementById('btn-prev').disabled = currentQuestion === 0;
+
+  const isLast = currentQuestion === questions.length - 1;
+  const nextBtn = document.getElementById('btn-next');
+  if (isLast) {
+    nextBtn.textContent = 'Submit Test';
+    nextBtn.onclick = submitTest;
+    const allAnswered = Object.keys(answers).length === questions.length;
+    nextBtn.disabled = !allAnswered;
+  } else {
+    nextBtn.textContent = 'Next →';
+    nextBtn.onclick = nextQuestion;
+    nextBtn.disabled = answers[currentQuestion] === undefined;
+  }
+  
+  // Show question container, hide loading
+  document.getElementById('loading-question').style.display = 'none';
+  document.getElementById('question-container').style.display = 'block';
+}
+
+function selectAnswer(value) {
+  answers[currentQuestion] = value;
+  
+  // Save answer to backend
+  submitAnswer(value);
+  
+  // Update UI
+  renderQuestion();
+}
+
+function submitAnswer(value) {
+  const q = questions[currentQuestion];
+  const payload = {
+    attempt_id: attemptId,
+    question_id: q.id
+  };
+  
+  if (q.question_type === 'scale') {
+    payload.scale_value = value;
+  } else if (q.question_type === 'yes_no') {
+    payload.selected_options = [value];
+  } else {
+    payload.selected_options = [value];
+  }
+  
+  fetch('/api/core/tests/submit-answer/', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': 'Bearer ' + localStorage.getItem('access_token'),
+      'X-CSRFToken': window.CSRF_TOKEN,
+    },
+    body: JSON.stringify(payload)
+  })
+  .then(response => response.json())
+  .then(data => {
+    // Answer saved successfully
+  })
+  .catch(error => {
+    console.error('Error saving answer:', error);
+  });
+}
+
+function nextQuestion() {
+  if (answers[currentQuestion] === undefined) return;
+  if (currentQuestion < questions.length - 1) {
+    currentQuestion++;
+    renderQuestion();
+  }
+}
+
+function prevQuestion() {
+  if (currentQuestion > 0) {
+    currentQuestion--;
+    renderQuestion();
+  }
+}
+
+function submitTest() {
+  if (Object.keys(answers).length !== questions.length) {
+    alert('Please answer all questions before submitting.');
+    return;
+  }
+  
+  showLoading(true);
+  
+  fetch('/api/core/tests/complete/', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': 'Bearer ' + localStorage.getItem('access_token'),
+      'X-CSRFToken': window.CSRF_TOKEN,
+    },
+    body: JSON.stringify({
+      attempt_id: attemptId
+    })
+  })
+  .then(response => response.json())
+  .then(data => {
+    showLoading(false);
+    if (data.message) {
+      // Redirect to results page
+      window.location.href = `/results/?attempt_id=${attemptId}`;
+    } else {
+      alert('Failed to submit test: ' + (data.error || 'Unknown error'));
+    }
+  })
+  .catch(error => {
+    showLoading(false);
+    alert('Network error. Please try again.');
+  });
+}
+
+function showLoading(show) {
+  const overlay = document.getElementById('loading-overlay');
+  overlay.style.display = show ? 'flex' : 'none';
+}
+</script>
+{% endblock %}
