@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 from .models import (
-    User, OTP, PsychometricTest, Question, AnswerOption,
+    User, PsychometricTest, Question, AnswerOption,
     UserTestAttempt, UserAnswer, TestResult, UserProfile, CareerRecommendation
 )
 
@@ -16,12 +16,6 @@ class UserAdmin(BaseUserAdmin):
         ('Additional Info', {'fields': ('phone', 'is_verified')}),
     )
 
-@admin.register(OTP)
-class OTPAdmin(admin.ModelAdmin):
-    list_display = ['user', 'code', 'created_at', 'is_used']
-    list_filter = ['is_used', 'created_at']
-    search_fields = ['user__email', 'code']
-    ordering = ['-created_at']
 
 @admin.register(PsychometricTest)
 class PsychometricTestAdmin(admin.ModelAdmin):

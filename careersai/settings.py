@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-0_5r*d1+m4n9lh@n0c%=!649emp+@3se==6pc5#b3b67$#5)o5
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.trycloudflare.com']
 
 
 # Application definition
@@ -91,16 +91,10 @@ DATABASES = {
 
 AUTH_PASSWORD_VALIDATORS = [
     {
-        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
-    },
-    {
         'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
-    },
-    {
-        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
-    },
-    {
-        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
+        'OPTIONS': {
+            'min_length': 8,
+        }
     },
 ]
 
@@ -153,24 +147,21 @@ SIMPLE_JWT = {
 # CORS Configuration
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
-    'http://127.0.0.1:3000'
+    'http://127.0.0.1:3000',
+    'https://alaska-statements-methods-dis.trycloudflare.com',
+    'http://alaska-statements-methods-dis.trycloudflare.com'
 ]
 
 CORS_ALLOW_CREDENTIALS = True
 
 CSRF_TRUSTED_ORIGINS = [
     'http://localhost:3000',
-    'http://127.0.0.1:3000'
+    'http://127.0.0.1:3000',
+    'https://alaska-statements-methods-dis.trycloudflare.com',
+    'http://alaska-statements-methods-dis.trycloudflare.com'
 ]
 
-# Email Configuration
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'careerai03@gmail.com'
-EMAIL_HOST_PASSWORD = 'fijm lvba pbyk whey'
-DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
+
 
 # Static and Media Files
 STATIC_URL = 'static/'
@@ -202,3 +193,11 @@ LOGGING = {
     },
 }
 # Django Settings
+# Email Configuration
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER ='careerai03@gmail.com'
+EMAIL_HOST_PASSWORD ='fijm lvba pbyk whey'
+DEFAULT_FROM_EMAIL = EMAIL_HOST_USER

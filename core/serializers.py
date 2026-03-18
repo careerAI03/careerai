@@ -1,7 +1,7 @@
 from rest_framework import serializers
 from django.contrib.auth import authenticate
 from .models import (
-    User, OTP, PsychometricTest, Question, AnswerOption,
+    User, PsychometricTest, Question, AnswerOption,
     UserTestAttempt, UserAnswer, TestResult, UserProfile, CareerRecommendation
 )
 
@@ -13,7 +13,7 @@ class UserRegistrationSerializer(serializers.ModelSerializer):
     
     class Meta:
         model = User
-        fields = ['email', 'username', 'password', 'confirm_password', 'phone', 'name']
+        fields = ['email', 'username', 'password', 'confirm_password', 'name']
     
     def validate_email(self, value):
         if User.objects.filter(email=value).exists():
@@ -51,7 +51,9 @@ class UserRegistrationSerializer(serializers.ModelSerializer):
     
     def create(self, validated_data):
         validated_data.pop('confirm_password')
-        validated_data.pop('name', None)  # Remove name as it's not a User field
+        name = validated_data.pop('name', None)
+        if name:
+            validated_data['first_name'] = name
         user = User.objects.create_user(**validated_data)
         return user
 

@@ -18,24 +18,15 @@
           <label class="form-label" for="login-email">Email</label>
           <input id="login-email" name="email" type="email" class="form-input" placeholder="jane@example.com" required />
         </div>
-        
-        
-        <!-- OTP Login -->
-        <div id="otp-login-section">
-          <button type="button" class="btn-full" id="send-login-otp-btn" onclick="sendLoginOTP()">Send OTP</button>
-          <div id="login-otp-section" style="display:none;">
-            <div class="form-group">
-              <label class="form-label" for="login-otp">Enter OTP sent to your email</label>
-              <input id="login-otp" name="otp" type="text" class="form-input" placeholder="123456" maxlength="6" required />
-            </div>
-            <button type="submit" class="btn-full" id="login-otp-submit-btn">Sign in with OTP</button>
-            <button type="button" class="btn-outline" id="resend-login-otp-btn">Resend OTP</button>
-          </div>
+        <div class="form-group">
+          <label class="form-label" for="login-password">Password</label>
+          <input id="login-password" name="password" type="password" class="form-input" placeholder="Enter your password" required />
         </div>
+        <button type="submit" class="btn-full" id="login-submit-btn">Sign in</button>
       </form>
 
-      <!-- Signup Step 1: Name and Email -->
-      <form id="signup-step1-form" method="post" style="display:none;">
+      <!-- Signup Form -->
+      <form id="signup-form" method="post" style="display:none;">
         {% csrf_token %}
         <div class="form-group">
           <label class="form-label" for="signup-name">Full Name</label>
@@ -45,18 +36,15 @@
           <label class="form-label" for="signup-email">Email</label>
           <input id="signup-email" name="email" type="email" class="form-input" placeholder="jane@example.com" required />
         </div>
-        <button type="submit" class="btn-full" id="signup-step1-btn">Send OTP</button>
-      </form>
-
-      <!-- Signup Step 2: OTP Verification -->
-      <form id="signup-step2-form" method="post" style="display:none;">
-        {% csrf_token %}
         <div class="form-group">
-          <label class="form-label" for="signup-otp">Enter OTP sent to your email</label>
-          <input id="signup-otp" name="otp" type="text" class="form-input" placeholder="123456" maxlength="6" required />
+          <label class="form-label" for="signup-password">Password</label>
+          <input id="signup-password" name="password" type="password" class="form-input" placeholder="Create a password (min 8 characters)" required />
         </div>
-        <button type="submit" class="btn-full" id="signup-step2-btn">Verify OTP</button>
-        <button type="button" class="btn-outline" id="resend-otp-btn">Resend OTP</button>
+        <div class="form-group">
+          <label class="form-label" for="signup-confirm-password">Confirm Password</label>
+          <input id="signup-confirm-password" name="confirm_password" type="password" class="form-input" placeholder="Confirm your password" required />
+        </div>
+        <button type="submit" class="btn-full" id="signup-submit-btn">Create Account</button>
       </form>
 
       <div class="auth-switch">
@@ -71,9 +59,6 @@
 {% block extra_js %}
 <script>
 let isSignUp = false;
-let signupData = {};
-let currentLoginMethod = 'otp';
-
 
 function toggleAuthMode() {
   isSignUp = !isSignUp;
@@ -84,8 +69,7 @@ function toggleAuthMode() {
   
   // Hide all forms
   document.getElementById('login-form').style.display = 'none';
-  document.getElementById('signup-step1-form').style.display = 'none';
-  document.getElementById('signup-step2-form').style.display = 'none';
+  document.getElementById('signup-form').style.display = 'none';
   
   heading.textContent = isSignUp ? 'Create account' : 'Welcome back';
   sub.textContent = isSignUp ? 'Sign up to start your career journey' : 'Sign in to continue your assessment';
@@ -94,13 +78,9 @@ function toggleAuthMode() {
   
   // Show appropriate form
   if (isSignUp) {
-    document.getElementById('signup-step1-form').style.display = 'block';
+    document.getElementById('signup-form').style.display = 'block';
   } else {
     document.getElementById('login-form').style.display = 'block';
-    // Reset to OTP login
-    document.getElementById('send-login-otp-btn').style.display = 'block';
-    document.getElementById('login-otp-section').style.display = 'none';
-    document.getElementById('login-otp').value = '';
   }
   
   hideAuthAlert();
@@ -122,270 +102,82 @@ document.getElementById('login-form').addEventListener('submit', function(e) {
   e.preventDefault();
   
   const formData = new FormData(this);
-  const email = formData.get('email');
+  const submitBtn = document.getElementById('login-submit-btn');
   
-  if (currentLoginMethod === 'otp') {
-    // OTP login - prevent form submission if OTP field is not visible
-    const otpSection = document.getElementById('login-otp-section');
-    if (otpSection.style.display === 'none' || otpSection.style.display === '') {
-      showAuthAlert('Please send OTP first', 'error');
-      return;
+  const loginData = {
+    email: formData.get('email'),
+    password: formData.get('password')
+  };
+  
+  console.log('Login data:', loginData);
+  
+  submitBtn.disabled = true;
+  submitBtn.textContent = 'Signing in…';
+  
+  fetch('/api/core/auth/login/', {
+    method: 'POST',
+    headers: {
+      'X-CSRFToken': window.CSRF_TOKEN,
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(loginData)
+  })
+  .then(response => {
+    console.log('Login response status:', response.status);
+    return response.json();
+  })
+  .then(data => {
+    console.log('Login response data:', data);
+    submitBtn.disabled = false;
+    submitBtn.textContent = 'Sign in';
+    
+    if (data.access_token) {
+      localStorage.setItem('access_token', data.access_token);
+      localStorage.setItem('refresh_token', data.refresh_token);
+      localStorage.setItem('user', JSON.stringify(data.user));
+      showAuthAlert('Login successful!', 'success');
+      setTimeout(() => {
+        window.location.href = '/';
+      }, 1000);
+    } else {
+      showAuthAlert(data.error || 'Login failed', 'error');
     }
-    
-    const otp = formData.get('otp');
-    const submitBtn = document.getElementById('login-otp-submit-btn');
-    
-    if (!otp) {
-      showAuthAlert('Please enter the OTP', 'error');
-      return;
-    }
-    
-    console.log('OTP Login data:', {
-      email: email,
-      otp: otp
-    });
-    
-    submitBtn.disabled = true;
-    submitBtn.textContent = 'Verifying…';
-    
-    fetch('/api/core/auth/login-otp/', {
-      method: 'POST',
-      headers: {
-        'X-CSRFToken': window.CSRF_TOKEN,
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        email: email,
-        otp: otp
-      })
-    })
-    .then(response => {
-      console.log('OTP Login response status:', response.status);
-      return response.json();
-    })
-    .then(data => {
-      console.log('OTP Login response data:', data);
-      submitBtn.disabled = false;
-      submitBtn.textContent = 'Sign in with OTP';
-      
-      if (data.access_token) {
-        localStorage.setItem('access_token', data.access_token);
-        localStorage.setItem('refresh_token', data.refresh_token);
-        localStorage.setItem('user', JSON.stringify(data.user));
-        showAuthAlert('Login successful via OTP!', 'success');
-        setTimeout(() => {
-          window.location.href = '/';
-        }, 1000);
-      } else {
-        showAuthAlert(data.error || 'OTP Login failed', 'error');
-      }
-    })
-    .catch(error => {
-      console.error('OTP Login error:', error);
-      submitBtn.disabled = false;
-      submitBtn.textContent = 'Sign in with OTP';
-      showAuthAlert('Network error. Please try again.', 'error');
-    });
-  }
+  })
+  .catch(error => {
+    console.error('Login error:', error);
+    submitBtn.disabled = false;
+    submitBtn.textContent = 'Sign in';
+    showAuthAlert('Network error. Please try again.', 'error');
+  });
 });
 
-// Debug: Check if form is properly attached
-console.log('Login form element:', document.getElementById('login-form'));
-console.log('Submit button element:', document.getElementById('login-submit-btn'));
-
-
-// Send OTP for login
-function sendLoginOTP() {
-  const email = document.getElementById('login-email').value;
-  const submitBtn = document.getElementById('send-login-otp-btn');
+// Signup form handler
+document.getElementById('signup-form').addEventListener('submit', function(e) {
+  e.preventDefault();
   
-  if (!email) {
-    showAuthAlert('Please enter your email address', 'error');
+  const formData = new FormData(this);
+  const submitBtn = document.getElementById('signup-submit-btn');
+  
+  const signupData = {
+    name: formData.get('name'),
+    email: formData.get('email'),
+    password: formData.get('password'),
+    confirm_password: formData.get('confirm_password')
+  };
+  
+  // Client-side validation
+  if (signupData.password.length < 8) {
+    showAuthAlert('Password must be at least 8 characters long', 'error');
     return;
   }
   
-  submitBtn.disabled = true;
-  submitBtn.textContent = 'Sending OTP…';
+  if (signupData.password !== signupData.confirm_password) {
+    showAuthAlert('Passwords do not match', 'error');
+    return;
+  }
   
-  fetch('/api/core/auth/send-otp/', {
-    method: 'POST',
-    headers: {
-      'X-CSRFToken': window.CSRF_TOKEN,
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({
-      email: email,
-      name: ''
-    })
-  })
-  .then(response => response.json())
-  .then(data => {
-    submitBtn.disabled = false;
-    submitBtn.textContent = 'Send OTP';
-    
-    if (data.success) {
-      document.getElementById('send-login-otp-btn').style.display = 'none';
-      document.getElementById('login-otp-section').style.display = 'block';
-      showAuthAlert('OTP sent to your email!', 'success');
-    } else {
-      showAuthAlert(data.error || 'Failed to send OTP', 'error');
-    }
-  })
-  .catch(error => {
-    console.error('Send OTP error:', error);
-    submitBtn.disabled = false;
-    submitBtn.textContent = 'Send OTP';
-    showAuthAlert('Network error. Please try again.', 'error');
-  });
-}
-
-// Resend OTP for login
-document.getElementById('resend-login-otp-btn').addEventListener('click', function() {
-  document.getElementById('send-login-otp-btn').style.display = 'block';
-  document.getElementById('login-otp-section').style.display = 'none';
-  document.getElementById('login-otp').value = '';
-  sendLoginOTP();
-});
-
-// Signup Step 1: Name and Email
-document.getElementById('signup-step1-form').addEventListener('submit', function(e) {
-  e.preventDefault();
+  console.log('Signup data:', signupData);
   
-  const formData = new FormData(this);
-  const submitBtn = document.getElementById('signup-step1-btn');
-  
-  signupData = {
-    name: formData.get('name'),
-    email: formData.get('email')
-  };
-  
-  console.log('Signup Step 1 data:', signupData);
-  
-  submitBtn.disabled = true;
-  submitBtn.textContent = 'Checking…';
-  
-  // Check if email exists
-  fetch('/api/core/auth/check-email/', {
-    method: 'POST',
-    headers: {
-      'X-CSRFToken': window.CSRF_TOKEN,
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({
-      email: signupData.email
-    })
-  })
-  .then(response => response.json())
-  .then(data => {
-    submitBtn.disabled = false;
-    submitBtn.textContent = 'Send OTP';
-    
-    if (data.exists) {
-      showAuthAlert('Email already exists. Please use a different email or sign in.', 'error');
-    } else {
-      // Send OTP
-      sendOTP();
-    }
-  })
-  .catch(error => {
-    console.error('Email check error:', error);
-    submitBtn.disabled = false;
-    submitBtn.textContent = 'Send OTP';
-    showAuthAlert('Network error. Please try again.', 'error');
-  });
-});
-
-function sendOTP() {
-  const submitBtn = document.getElementById('signup-step1-btn');
-  submitBtn.disabled = true;
-  submitBtn.textContent = 'Sending OTP…';
-  
-  fetch('/api/core/auth/send-otp/', {
-    method: 'POST',
-    headers: {
-      'X-CSRFToken': window.CSRF_TOKEN,
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({
-      email: signupData.email,
-      name: signupData.name
-    })
-  })
-  .then(response => response.json())
-  .then(data => {
-    submitBtn.disabled = false;
-    submitBtn.textContent = 'Send OTP';
-    
-    if (data.success) {
-      // Move to step 2
-      document.getElementById('signup-step1-form').style.display = 'none';
-      document.getElementById('signup-step2-form').style.display = 'block';
-      showAuthAlert('OTP sent to your email!', 'success');
-    } else {
-      showAuthAlert(data.error || 'Failed to send OTP', 'error');
-    }
-  })
-  .catch(error => {
-    console.error('Send OTP error:', error);
-    submitBtn.disabled = false;
-    submitBtn.textContent = 'Send OTP';
-    showAuthAlert('Network error. Please try again.', 'error');
-  });
-}
-
-// Signup Step 2: OTP Verification
-document.getElementById('signup-step2-form').addEventListener('submit', function(e) {
-  e.preventDefault();
-  
-  const formData = new FormData(this);
-  const submitBtn = document.getElementById('signup-step2-btn');
-  
-  console.log('OTP verification data:', {
-    email: signupData.email,
-    otp: formData.get('otp')
-  });
-  
-  submitBtn.disabled = true;
-  submitBtn.textContent = 'Verifying…';
-  
-  fetch('/api/core/auth/verify-otp/', {
-    method: 'POST',
-    headers: {
-      'X-CSRFToken': window.CSRF_TOKEN,
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({
-      email: signupData.email,
-      otp: formData.get('otp')
-    })
-  })
-  .then(response => response.json())
-  .then(data => {
-    submitBtn.disabled = false;
-    submitBtn.textContent = 'Verify OTP';
-    
-    if (data.success) {
-      // Complete registration
-      completeRegistration();
-    } else {
-      showAuthAlert(data.error || 'Invalid OTP', 'error');
-    }
-  })
-  .catch(error => {
-    console.error('OTP verification error:', error);
-    submitBtn.disabled = false;
-    submitBtn.textContent = 'Verify OTP';
-    showAuthAlert('Network error. Please try again.', 'error');
-  });
-});
-
-// Resend OTP
-document.getElementById('resend-otp-btn').addEventListener('click', function() {
-  sendOTP();
-});
-
-function completeRegistration() {
-  const submitBtn = document.getElementById('signup-step2-btn');
   submitBtn.disabled = true;
   submitBtn.textContent = 'Creating Account…';
   
@@ -404,7 +196,7 @@ function completeRegistration() {
   .then(data => {
     console.log('Registration response data:', data);
     submitBtn.disabled = false;
-    submitBtn.textContent = 'Verify OTP';
+    submitBtn.textContent = 'Create Account';
     
     if (data.access_token) {
       localStorage.setItem('access_token', data.access_token);
@@ -415,15 +207,26 @@ function completeRegistration() {
         window.location.href = '/';
       }, 1000);
     } else {
-      showAuthAlert(data.error || 'Registration failed', 'error');
+      // Show specific error messages
+      let errorMessage = data.error || 'Registration failed';
+      if (data.details) {
+        if (data.details.password) {
+          errorMessage = `Password error: ${data.details.password}`;
+        } else if (data.details.email) {
+          errorMessage = `Email error: ${data.details.email}`;
+        } else if (data.details.non_field_errors) {
+          errorMessage = data.details.non_field_errors;
+        }
+      }
+      showAuthAlert(errorMessage, 'error');
     }
   })
   .catch(error => {
     console.error('Registration error:', error);
     submitBtn.disabled = false;
-    submitBtn.textContent = 'Verify OTP';
+    submitBtn.textContent = 'Create Account';
     showAuthAlert('Network error. Please try again.', 'error');
   });
-}
+});
 </script>
 {% endblock %}

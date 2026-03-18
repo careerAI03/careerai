@@ -17,22 +17,6 @@ class User(AbstractUser):
     def __str__(self):
         return self.email
 
-class OTP(models.Model):
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
-    code = models.CharField(max_length=6)
-    created_at = models.DateTimeField(auto_now_add=True)
-    is_used = models.BooleanField(default=False)
-    
-    def generate_otp(self):
-        self.code = ''.join(random.choices(string.digits, k=6))
-        self.save()
-        return self.code
-    
-    def is_valid(self):
-        return not self.is_used and (timezone.now() - self.created_at).seconds < 300  # 5 minutes
-    
-    def __str__(self):
-        return f"{self.user.email} - {self.code}"
 
 class PsychometricTest(models.Model):
     CATEGORY_CHOICES = [
